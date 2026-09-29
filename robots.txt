@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://kaattaallaa-sketch.github.io/proofrail-mcp/sitemap.xml
