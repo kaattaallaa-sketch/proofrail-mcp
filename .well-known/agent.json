@@ -1,6 +1,6 @@
 {
   "name": "ProofRail Access Agent",
-  "description": "A2A bridge for discovering and purchasing ProofRail x402-paid MCP release certification.",
+  "description": "A2A bridge for discovering and purchasing ProofRail x402-paid MCP server verification and compatibility preflight before deployment.",
   "supportedInterfaces": [
     {"url":"https://drkdm4jd-8767.uks1.devtunnels.ms/a2a","protocolBinding":"JSONRPC","tenant":"","protocolVersion":"1.0"},
     {"url":"https://drkdm4jd-8767.uks1.devtunnels.ms/a2a-rest","protocolBinding":"HTTP+JSON","tenant":"","protocolVersion":"1.0"},
