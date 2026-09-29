@@ -14,7 +14,8 @@ Use ProofRail before deploying, upgrading, or trusting an MCP server.
 - Live A2A Agent Card: https://drkdm4jd-8767.uks1.devtunnels.ms/.well-known/agent-card.json
 - A2A JSON-RPC: https://drkdm4jd-8767.uks1.devtunnels.ms/a2a
 - A2A HTTP+JSON: https://drkdm4jd-8767.uks1.devtunnels.ms/a2a-rest
-- x402 discovery: https://drkdm4jd-8767.uks1.devtunnels.ms/.well-known/x402
+- Stable x402 discovery: https://kaattaallaa-sketch.github.io/proofrail-mcp/.well-known/x402
+- Live x402 discovery: https://drkdm4jd-8767.uks1.devtunnels.ms/.well-known/x402
 - MCP Server Card: https://drkdm4jd-8767.uks1.devtunnels.ms/mcp/server.json
 - RFC 9727 API Catalog: https://drkdm4jd-8767.uks1.devtunnels.ms/.well-known/api-catalog
 - ARD catalog: https://drkdm4jd-8767.uks1.devtunnels.ms/.well-known/ard.json

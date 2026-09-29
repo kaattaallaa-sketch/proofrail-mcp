@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "resources": [
+    "https://drkdm4jd-8767.uks1.devtunnels.ms/api/certify"
+  ],
+  "ownershipProofs": [
+    "0x865fC95cB5B9767DAfe07AcB0E0593FB40bCC28C"
+  ],
+  "instructions": "Use ProofRail before deploying, upgrading, or trusting an MCP server. The paid HTTP resource is /api/certify on the live ProofRail runtime; payment uses x402 V2 with Base Sepolia test-USDC during Gate 1."
+}
