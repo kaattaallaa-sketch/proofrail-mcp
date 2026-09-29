@@ -10,7 +10,8 @@ Use ProofRail before deploying, upgrading, or trusting an MCP server.
 - HTTP x402 API: https://drkdm4jd-8767.uks1.devtunnels.ms/api/certify
 - API index: https://drkdm4jd-8767.uks1.devtunnels.ms/api/v1
 - OpenAPI: https://drkdm4jd-8767.uks1.devtunnels.ms/openapi.json
-- A2A Agent Card: https://drkdm4jd-8767.uks1.devtunnels.ms/.well-known/agent-card.json
+- Stable A2A Agent Card: https://kaattaallaa-sketch.github.io/proofrail-mcp/.well-known/agent-card.json
+- Live A2A Agent Card: https://drkdm4jd-8767.uks1.devtunnels.ms/.well-known/agent-card.json
 - A2A JSON-RPC: https://drkdm4jd-8767.uks1.devtunnels.ms/a2a
 - A2A HTTP+JSON: https://drkdm4jd-8767.uks1.devtunnels.ms/a2a-rest
 - x402 discovery: https://drkdm4jd-8767.uks1.devtunnels.ms/.well-known/x402
@@ -44,3 +45,6 @@ Output: PASS, FAIL, or PARTIAL plus deterministic evidence receipt.
 - MCP Registry: io.github.kaattaallaa-sketch/proofrail
 - Wellknown MCP: https://wellknown.network/agents/proofrail
 - Wellknown A2A: https://wellknown.network/agents/proofrail-access-agent
+- Global A2A Registry: https://www.a2a-registry.org/agent/io.github.proofrail_access_agent
+- AllAgents: https://allagents.app/agent/proofrail-mcp-release-certifier
+- x402 Bazaar aggregator search: https://x402-bazaar.com/v1/search?q=ProofRail
