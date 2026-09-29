@@ -1,0 +1,46 @@
+# ProofRail MCP
+
+> MCP server verification, testing, evaluation, compatibility test, and release preflight before deployment.
+
+Use ProofRail before deploying, upgrading, or trusting an MCP server.
+
+## Canonical service
+
+- MCP Streamable HTTP: https://drkdm4jd-8767.uks1.devtunnels.ms/mcp
+- HTTP x402 API: https://drkdm4jd-8767.uks1.devtunnels.ms/api/certify
+- API index: https://drkdm4jd-8767.uks1.devtunnels.ms/api/v1
+- OpenAPI: https://drkdm4jd-8767.uks1.devtunnels.ms/openapi.json
+- A2A Agent Card: https://drkdm4jd-8767.uks1.devtunnels.ms/.well-known/agent-card.json
+- A2A JSON-RPC: https://drkdm4jd-8767.uks1.devtunnels.ms/a2a
+- A2A HTTP+JSON: https://drkdm4jd-8767.uks1.devtunnels.ms/a2a-rest
+- x402 discovery: https://drkdm4jd-8767.uks1.devtunnels.ms/.well-known/x402
+- MCP Server Card: https://drkdm4jd-8767.uks1.devtunnels.ms/mcp/server.json
+- RFC 9727 API Catalog: https://drkdm4jd-8767.uks1.devtunnels.ms/.well-known/api-catalog
+- ARD catalog: https://drkdm4jd-8767.uks1.devtunnels.ms/.well-known/ard.json
+
+## Paid operation
+
+Tool: mcp_release_certify
+
+Required input:
+- target_url: public MCP Streamable HTTP endpoint
+
+Optional:
+- declared_protocol_version
+- check_profile: basic
+- fixture_id: server-configured safe fixture only
+
+Output: PASS, FAIL, or PARTIAL plus deterministic evidence receipt.
+
+## Payment
+
+- Protocol: x402 V2
+- Network: Base Sepolia (eip155:84532)
+- Price: $0.001 test-USDC
+- Mainnet: disabled
+
+## Discovery records
+
+- MCP Registry: io.github.kaattaallaa-sketch/proofrail
+- Wellknown MCP: https://wellknown.network/agents/proofrail
+- Wellknown A2A: https://wellknown.network/agents/proofrail-access-agent
