@@ -1,41 +1,44 @@
-# ProofRail
+# ProofRail MCP
 
-ProofRail is a public MCP release preflight service for AI agents.
+**MCP server verification, testing, evaluation, and compatibility preflight before deployment.**
 
-Use it **before deploying, upgrading, or trusting an MCP server**. It checks protocol negotiation, `tools/list`, tool schemas, Streamable HTTP transport, authentication classification, and optional server-configured safe fixtures.
+Use ProofRail before deploying, upgrading, or trusting an MCP server. It checks protocol negotiation, `tools/list`, tool schemas, Streamable HTTP transport, authentication classification, and optional server-configured safe fixtures. It returns **PASS**, **FAIL**, or **PARTIAL** with deterministic evidence.
+
+## Public landing page
+
+https://kaattaallaa-sketch.github.io/proofrail-mcp/
 
 ## Connect
 
 - MCP Streamable HTTP: `https://drkdm4jd-8767.uks1.devtunnels.ms/mcp`
+- A2A Agent Card: `https://drkdm4jd-8767.uks1.devtunnels.ms/.well-known/agent-card.json`
+- A2A JSON-RPC: `https://drkdm4jd-8767.uks1.devtunnels.ms/a2a`
+- A2A HTTP+JSON: `https://drkdm4jd-8767.uks1.devtunnels.ms/a2a-rest`
 - HTTP API: `https://drkdm4jd-8767.uks1.devtunnels.ms/api/certify`
 - OpenAPI: `https://drkdm4jd-8767.uks1.devtunnels.ms/openapi.json`
 - x402 discovery: `https://drkdm4jd-8767.uks1.devtunnels.ms/.well-known/x402`
-- MCP Server Card: `https://drkdm4jd-8767.uks1.devtunnels.ms/mcp/server-card`
-- AI Catalog: `https://drkdm4jd-8767.uks1.devtunnels.ms/.well-known/ai-catalog.json`
+- ARD catalog: `https://drkdm4jd-8767.uks1.devtunnels.ms/.well-known/ard.json`
 
 ## MCP tools
 
-- `health` — free service health.
-- `proofrail_info` — free service description.
-- `quote_certification` — free price quote.
-- `mcp_release_certify` — x402-paid compatibility certification.
-
-## Current validation stage
-
-ProofRail is currently in Gate 1 on **Base Sepolia** using **test-USDC**. Payments are testnet validation and are not revenue.
-
-The production service code is not published in this repository. This repository contains only public discovery metadata and the automated MCP Registry publication workflow.
+- `health` — free service health
+- `proofrail_info` — free capability description
+- `quote_certification` — free network/price quote
+- `mcp_release_certify` — x402-paid compatibility certification
 
 ## Discovery
 
-ProofRail publishes machine-readable metadata for:
+ProofRail is distributed through:
 
-- Official MCP Registry (`server.json`)
-- MCP Streamable HTTP
-- OpenAPI 3.1
-- x402 / Bazaar
-- x402scan-compatible discovery
-- experimental MCP Server Card + AI Catalog
-- `llms.txt`
+- Official MCP Registry: `io.github.kaattaallaa-sketch/proofrail`
+- PayAI Bazaar
+- Ultravioleta DAO Bazaar aggregation
+- Wellknown verified MCP record: https://wellknown.network/agents/proofrail
+- Wellknown verified A2A record: https://wellknown.network/agents/proofrail-access-agent
+- OpenAPI 3.1, RFC 9727 API Catalog, ARD 0.9, Server Card, `llms.txt`, JSON-LD and crawler metadata
 
-The service returns PASS, FAIL, or PARTIAL with a deterministic evidence receipt.
+## Current validation stage
+
+Gate 1 runs on **Base Sepolia** at **$0.001 test-USDC**. Testnet payments are validation, not revenue. Base mainnet remains disabled.
+
+The production ProofRail service code is **not** published in this repository. This repository contains only public discovery metadata, the static discovery landing page, and the automated MCP Registry publication workflow.
