@@ -2,9 +2,9 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.kaattaallaa-sketch/proofrail",
   "title": "ProofRail",
-  "description": "Verify MCP servers before deploy with protocol, schema, transport, auth, and evidence checks.",
-  "version": "0.1.0",
-  "websiteUrl": "https://drkdm4jd-8767.uks1.devtunnels.ms",
+  "description": "MCP server verification and compatibility preflight before deployment, with PASS/FAIL evidence.",
+  "version": "0.2.2-gate1",
+  "websiteUrl": "https://kaattaallaa-sketch.github.io/proofrail-mcp/",
   "remotes": [
     {
       "type": "streamable-http",
