@@ -1,0 +1,58 @@
+{
+  "name": "ProofRail Access Agent",
+  "description": "A2A bridge for discovering and purchasing ProofRail x402-paid MCP release certification.",
+  "supportedInterfaces": [
+    {
+      "url": "https://drkdm4jd-8767.uks1.devtunnels.ms/a2a",
+      "protocolBinding": "JSONRPC",
+      "tenant": "",
+      "protocolVersion": "1.0"
+    },
+    {
+      "url": "https://drkdm4jd-8767.uks1.devtunnels.ms/a2a-rest",
+      "protocolBinding": "HTTP+JSON",
+      "tenant": "",
+      "protocolVersion": "1.0"
+    },
+    {
+      "url": "https://drkdm4jd-8767.uks1.devtunnels.ms/a2a",
+      "protocolBinding": "JSONRPC",
+      "tenant": "",
+      "protocolVersion": "0.3"
+    }
+  ],
+  "provider": {
+    "organization": "ProofRail",
+    "url": "https://kaattaallaa-sketch.github.io/proofrail-mcp"
+  },
+  "version": "0.2.3-gate1",
+  "documentationUrl": "https://kaattaallaa-sketch.github.io/proofrail-mcp/llms.txt",
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "extensions": [],
+    "extendedAgentCard": false
+  },
+  "securitySchemes": {},
+  "securityRequirements": [],
+  "defaultInputModes": ["text/plain"],
+  "defaultOutputModes": ["application/json", "text/plain"],
+  "skills": [
+    {
+      "id": "proofrail_certification_access",
+      "name": "ProofRail certification access",
+      "description": "Returns canonical MCP/HTTP endpoints, x402 network and price, and the request shape needed to purchase MCP release certification.",
+      "tags": ["mcp", "x402", "preflight", "compatibility", "verification"],
+      "examples": [
+        "How do I certify an MCP server before deployment?",
+        "Give me the ProofRail x402 certification endpoint.",
+        "Verify this MCP server release before I trust it."
+      ],
+      "inputModes": ["text/plain"],
+      "outputModes": ["application/json", "text/plain"],
+      "securityRequirements": []
+    }
+  ],
+  "signatures": [],
+  "iconUrl": "https://kaattaallaa-sketch.github.io/proofrail-mcp/favicon.svg"
+}
