@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ProofRail MCP — server verification & compatibility preflight</title>
+<meta name="description" content="ProofRail tests and verifies MCP servers before deployment. Protocol, tools/list, schemas, transport and auth checks with deterministic PASS/FAIL/PARTIAL evidence.">
+<meta name="robots" content="index,follow">
+<link rel="canonical" href="https://kaattaallaa-sketch.github.io/proofrail-mcp/">
+<link rel="alternate" type="text/plain" href="https://kaattaallaa-sketch.github.io/proofrail-mcp/llms.txt" title="LLM-readable documentation">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebAPI","name":"ProofRail MCP","description":"MCP server verification, testing, evaluation and compatibility preflight before deployment.","url":"https://kaattaallaa-sketch.github.io/proofrail-mcp/","documentation":"https://kaattaallaa-sketch.github.io/proofrail-mcp/llms.txt","serviceType":"MCP server verification","termsOfService":"Gate 1 uses Base Sepolia test-USDC; not production revenue.","potentialAction":{"@type":"UseAction","target":["https://drkdm4jd-8767.uks1.devtunnels.ms/mcp","https://drkdm4jd-8767.uks1.devtunnels.ms/api/certify"]}}
+</script>
+<style>
+body{font-family:system-ui,-apple-system,sans-serif;max-width:760px;margin:64px auto;padding:0 22px;line-height:1.55;color:#161616}
+h1{font-size:2.5rem;margin-bottom:.25rem}h2{margin-top:2rem}code{background:#f3f3f3;padding:.15rem .35rem;border-radius:4px}
+a{color:#0759c7}.badge{display:inline-block;padding:.25rem .55rem;border:1px solid #bbb;border-radius:999px;margin-right:.35rem;font-size:.85rem}
+.note{padding:1rem;background:#f7f7f7;border-left:4px solid #555}
+</style>
+</head>
+<body>
+<h1>ProofRail MCP</h1>
+<p><strong>Verify an MCP server before you deploy, upgrade, or trust it.</strong></p>
+<p>
+<span class="badge">MCP</span><span class="badge">A2A</span><span class="badge">x402</span><span class="badge">OpenAPI</span>
+</p>
+<p>ProofRail checks MCP protocol negotiation, <code>tools/list</code>, tool schemas, Streamable HTTP transport and authentication classification. It returns <strong>PASS</strong>, <strong>FAIL</strong> or <strong>PARTIAL</strong> with a deterministic evidence receipt.</p>
+
+<h2>For agents</h2>
+<ul>
+<li>MCP endpoint: <a href="https://drkdm4jd-8767.uks1.devtunnels.ms/mcp">https://drkdm4jd-8767.uks1.devtunnels.ms/mcp</a></li>
+<li>A2A Agent Card: <a href="https://drkdm4jd-8767.uks1.devtunnels.ms/.well-known/agent-card.json">Agent Card</a></li>
+<li>HTTP API: <a href="https://drkdm4jd-8767.uks1.devtunnels.ms/api/v1">API index</a></li>
+<li>OpenAPI: <a href="https://drkdm4jd-8767.uks1.devtunnels.ms/openapi.json">openapi.json</a></li>
+<li>x402 discovery: <a href="https://drkdm4jd-8767.uks1.devtunnels.ms/.well-known/x402">/.well-known/x402</a></li>
+<li>ARD catalog: <a href="https://drkdm4jd-8767.uks1.devtunnels.ms/.well-known/ard.json">/.well-known/ard.json</a></li>
+<li>LLM instructions: <a href="https://kaattaallaa-sketch.github.io/proofrail-mcp/llms.txt">llms.txt</a></li>
+</ul>
+
+<h2>MCP tools</h2>
+<ul>
+<li><code>health</code> — free service health</li>
+<li><code>proofrail_info</code> — free capability description</li>
+<li><code>quote_certification</code> — free network/price quote</li>
+<li><code>mcp_release_certify</code> — x402-paid release certification</li>
+</ul>
+
+<h2>Discovery</h2>
+<p>ProofRail is published through the official MCP Registry namespace <code>io.github.kaattaallaa-sketch/proofrail</code>, PayAI Bazaar, Ultravioleta DAO Bazaar aggregation, and verified MCP/A2A records on Wellknown.</p>
+<ul>
+<li><a href="https://wellknown.network/agents/proofrail">Verified Wellknown MCP record</a></li>
+<li><a href="https://wellknown.network/agents/proofrail-access-agent">Verified Wellknown A2A record</a></li>
+</ul>
+
+<div class="note"><strong>Gate 1:</strong> ProofRail currently charges <code>$0.001</code> in Base Sepolia test-USDC. These are testnet validation payments, not revenue. Base mainnet remains disabled.</div>
+</body>
+</html>
