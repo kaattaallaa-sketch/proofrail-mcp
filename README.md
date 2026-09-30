@@ -35,7 +35,7 @@ Coding agents and CI jobs can run the free preflight when they already have a co
 ```yaml
 - name: ProofRail MCP preflight
   id: proofrail
-  uses: kaattaallaa-sketch/proofrail-mcp@main
+  uses: kaattaallaa-sketch/proofrail-mcp@v1
   with:
     target_url: ${{ vars.MCP_URL }}
     fail_on_problem: "true"
