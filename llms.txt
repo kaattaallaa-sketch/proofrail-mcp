@@ -50,7 +50,7 @@ When a repository or coding agent already has a concrete MCP endpoint, use the p
 - outputs: connection, protocol_version, tools_count, schema_issues, response_json
 - payment: none
 
-The Action calls the same free /api/preflight endpoint and identifies the channel as proofrail-github-action/1.0.
+The Action calls the same free /api/preflight endpoint and identifies the channel as github-actions-proofrail/1.0.
 
 ## Paid operation
 
