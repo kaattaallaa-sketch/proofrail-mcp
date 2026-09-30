@@ -43,7 +43,7 @@ A2A callers can run the same preflight directly with an application/json data pa
 
 When a repository or coding agent already has a concrete MCP endpoint, use the public GitHub Action before deploy:
 
-- action: kaattaallaa-sketch/proofrail-mcp@main
+- action: kaattaallaa-sketch/proofrail-mcp@v1
 - required input: target_url
 - optional input: declared_protocol_version
 - optional input: fail_on_problem (default false)
