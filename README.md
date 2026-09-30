@@ -22,11 +22,11 @@ https://kaattaallaa-sketch.github.io/proofrail-mcp/
 
 ## MCP tools
 
-- `health` â€” free service health
-- `proofrail_info` â€” free capability description
-- `mcp_release_preflight` â€” free endpoint preflight; no payment
-- `quote_certification` â€” free network/price quote
-- `mcp_release_certify` â€” x402-paid compatibility certification
+- `health` — free service health
+- `proofrail_info` — free capability description
+- `mcp_release_preflight` — free endpoint preflight; no payment
+- `quote_certification` — free network/price quote
+- `mcp_release_certify` — x402-paid compatibility certification
 
 ## GitHub Actions: preflight before deploy
 
@@ -64,6 +64,6 @@ ProofRail is distributed through:
 
 ## Current validation stage
 
-Gate 1 runs on **Base Sepolia** at **$0.001 test-USDC**. Testnet payments are validation, not revenue. Base mainnet remains disabled.
+The free preflight requires no payment. Full certification currently advertises **$0.10 USDC on Base mainnet** through x402. The payment path has been technically preflighted without sending a transaction; no completed external sale or settlement has been confirmed yet.
 
-The production ProofRail service code is **not** published in this repository. This repository contains only public discovery metadata, the static discovery landing page, and the automated MCP Registry publication workflow.
+The production ProofRail service code is **not** published in this repository. This repository contains public discovery metadata, the reusable preflight GitHub Action, the static discovery landing page, and the automated MCP Registry publication workflow.
