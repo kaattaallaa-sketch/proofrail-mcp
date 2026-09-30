@@ -22,17 +22,21 @@ https://kaattaallaa-sketch.github.io/proofrail-mcp/
 
 ## MCP Radar
 
-ProofRail now maintains an autonomous read-only snapshot of public MCP endpoints discovered from public registries.
+ProofRail maintains an autonomous read-only index of public MCP endpoints discovered independently from multiple public sources, currently including the official MCP Registry and public GitHub `server.json` manifests.
 
 - HTTP snapshot: `GET https://drkdm4jd-8767.uks1.devtunnels.ms/api/radar`
-- MCP tool: `mcp_radar_snapshot`
-- The snapshot is refreshed automatically and does not trigger a live scan when queried.
+- HTTP changes: `GET https://drkdm4jd-8767.uks1.devtunnels.ms/api/radar/changes`
+- MCP tools: `mcp_radar_snapshot` and `mcp_radar_changes`
+- Snapshot filters include `outcome`, `connection`, `source`, `tool_contains`, `min_tools`, and `limit`.
+- Radar sweeps refresh automatically; reading the snapshot or changes never triggers a live scan.
+- Change tracking covers new/not-seen endpoints plus outcome, connection, protocol, tool-count, tool-name, and schema changes.
 - Results are point-in-time compatibility observations, not a security audit or uptime guarantee.
 
 ## MCP tools
 
 - `health` — free service health
-- `mcp_radar_snapshot` — free cached autonomous MCP Radar snapshot
+- `mcp_radar_snapshot` — free cached autonomous MCP Radar snapshot with capability filters
+- `mcp_radar_changes` — free changes observed between the latest Radar sweeps
 - `proofrail_info` — free capability description
 - `mcp_release_preflight` — free endpoint preflight; no payment
 - `quote_certification` — free network/price quote
