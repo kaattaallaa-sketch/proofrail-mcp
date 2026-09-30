@@ -21,7 +21,7 @@ request = urllib.request.Request(
     data=json.dumps(payload).encode("utf-8"),
     headers={
         "Content-Type": "application/json",
-        "User-Agent": "proofrail-github-action/1.0",
+        "User-Agent": "github-actions-proofrail/1.0",
     },
     method="POST",
 )
