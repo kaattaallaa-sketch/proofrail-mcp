@@ -1,70 +1,109 @@
 {
   "name": "ProofRail Access Agent",
-  "description": "A2A bridge for discovering and purchasing ProofRail x402-paid MCP server verification and compatibility preflight before deployment.",
+  "description": "A2A bridge for a free MCP endpoint preflight first, followed by optional x402-paid ProofRail certification with deterministic evidence.",
   "supportedInterfaces": [
-    {"url":"https://drkdm4jd-8767.uks1.devtunnels.ms/a2a","protocolBinding":"JSONRPC","tenant":"","protocolVersion":"1.0"},
-    {"url":"https://drkdm4jd-8767.uks1.devtunnels.ms/a2a-rest","protocolBinding":"HTTP+JSON","tenant":"","protocolVersion":"1.0"},
-    {"url":"https://drkdm4jd-8767.uks1.devtunnels.ms/a2a","protocolBinding":"JSONRPC","tenant":"","protocolVersion":"0.3"}
+    {
+      "url": "https://drkdm4jd-8767.uks1.devtunnels.ms/a2a",
+      "protocolBinding": "JSONRPC",
+      "tenant": "",
+      "protocolVersion": "1.0"
+    },
+    {
+      "url": "https://drkdm4jd-8767.uks1.devtunnels.ms/a2a-rest",
+      "protocolBinding": "HTTP+JSON",
+      "tenant": "",
+      "protocolVersion": "1.0"
+    },
+    {
+      "url": "https://drkdm4jd-8767.uks1.devtunnels.ms/a2a",
+      "protocolBinding": "JSONRPC",
+      "tenant": "",
+      "protocolVersion": "0.3"
+    }
   ],
-  "provider":{"organization":"ProofRail","url":"https://kaattaallaa-sketch.github.io/proofrail-mcp"},
-  "version":"0.2.3-gate1",
-  "documentationUrl":"https://kaattaallaa-sketch.github.io/proofrail-mcp/llms.txt",
-  "capabilities":{
-    "streaming":false,
-    "pushNotifications":false,
-    "extensions":[
+  "provider": {
+    "organization": "ProofRail",
+    "url": "https://kaattaallaa-sketch.github.io/proofrail-mcp"
+  },
+  "version": "0.2.4-gate1",
+  "documentationUrl": "https://kaattaallaa-sketch.github.io/proofrail-mcp/llms.txt",
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "extensions": [
       {
-        "uri":"https://a2a-registry.org/extensions/registry/v1",
-        "description":"Registry identity hints and x402 payment capabilities",
-        "required":false,
-        "params":{
-          "identity":{
-            "provider":"github",
-            "username":"kaattaallaa-sketch",
-            "packageName":"github.kaattaallaa-sketch.proofrail_access_agent"
+        "uri": "https://a2a-registry.org/extensions/registry/v1",
+        "description": "Registry identity hints and x402 payment capabilities",
+        "required": false,
+        "params": {
+          "identity": {
+            "provider": "github",
+            "username": "kaattaallaa-sketch",
+            "packageName": "github.kaattaallaa-sketch.proofrail_access_agent"
           },
-          "payment":{
-            "protocols":["x402"],
-            "direction":"inbound",
-            "rails":[
+          "payment": {
+            "protocols": [
+              "x402"
+            ],
+            "direction": "inbound",
+            "rails": [
               {
-                "network":"base-sepolia",
-                "token":"USDC",
-                "type":"stablecoin",
-                "scheme":"exact",
-                "protocol":"x402",
-                "feeModel":"low",
-                "settlementTime":"fast",
-                "caip2":"eip155:84532",
-                "contractAddress":"0x036CbD53842c5426634e7929541eC2318f3dCF7e"
+                "network": "base-sepolia",
+                "token": "USDC",
+                "type": "stablecoin",
+                "scheme": "exact",
+                "protocol": "x402",
+                "feeModel": "low",
+                "settlementTime": "fast",
+                "caip2": "eip155:84532",
+                "contractAddress": "0x036CbD53842c5426634e7929541eC2318f3dCF7e"
               }
             ]
           }
         }
       }
     ],
-    "extendedAgentCard":false
+    "extendedAgentCard": false
   },
-  "securitySchemes":{},
-  "securityRequirements":[],
-  "defaultInputModes":["text/plain"],
-  "defaultOutputModes":["application/json","text/plain"],
-  "skills":[
+  "securitySchemes": {},
+  "securityRequirements": [],
+  "defaultInputModes": [
+    "text/plain",
+    "application/json"
+  ],
+  "defaultOutputModes": [
+    "application/json",
+    "text/plain"
+  ],
+  "skills": [
     {
-      "id":"proofrail_certification_access",
-      "name":"ProofRail certification access",
-      "description":"Returns canonical MCP/HTTP endpoints, x402 network and price, and the request shape needed to purchase MCP release certification.",
-      "tags":["mcp","x402","preflight","compatibility","verification"],
-      "examples":[
+      "id": "proofrail_certification_access",
+      "name": "ProofRail certification access",
+      "description": "Run a free preflight immediately when a structured JSON data part contains target_url; otherwise return canonical MCP/HTTP access details for optional x402-paid full certification.",
+      "tags": [
+        "mcp",
+        "x402",
+        "preflight",
+        "compatibility",
+        "verification"
+      ],
+      "examples": [
+        "Run a free preflight on this MCP endpoint before I trust it.",
         "How do I certify an MCP server before deployment?",
         "Give me the ProofRail x402 certification endpoint.",
         "Verify this MCP server release before I trust it."
       ],
-      "inputModes":["text/plain"],
-      "outputModes":["application/json","text/plain"],
-      "securityRequirements":[]
+      "inputModes": [
+        "text/plain",
+        "application/json"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "securityRequirements": []
     }
   ],
-  "signatures":[],
-  "iconUrl":"https://kaattaallaa-sketch.github.io/proofrail-mcp/favicon.svg"
+  "signatures": [],
+  "iconUrl": "https://kaattaallaa-sketch.github.io/proofrail-mcp/favicon.svg"
 }
