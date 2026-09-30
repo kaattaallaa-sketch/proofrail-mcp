@@ -4,12 +4,12 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>ProofRail MCP — server verification & compatibility preflight</title>
-<meta name="description" content="ProofRail tests and verifies MCP servers before deployment. Protocol, tools/list, schemas, transport and auth checks with deterministic PASS/FAIL/PARTIAL evidence.">
+<meta name="description" content="ProofRail offers a free MCP endpoint preflight before deployment, then optional x402-paid PASS/FAIL/PARTIAL evidence certification.">
 <meta name="robots" content="index,follow">
 <link rel="canonical" href="https://kaattaallaa-sketch.github.io/proofrail-mcp/">
 <link rel="alternate" type="text/plain" href="https://kaattaallaa-sketch.github.io/proofrail-mcp/llms.txt" title="LLM-readable documentation">\n<link rel="alternate" type="application/a2a+json" href="https://kaattaallaa-sketch.github.io/proofrail-mcp/.well-known/agent-card.json" title="A2A Agent Card">
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebAPI","name":"ProofRail MCP","description":"MCP server verification, testing, evaluation and compatibility preflight before deployment.","url":"https://kaattaallaa-sketch.github.io/proofrail-mcp/","documentation":"https://kaattaallaa-sketch.github.io/proofrail-mcp/llms.txt","serviceType":"MCP server verification","termsOfService":"Gate 1 uses Base Sepolia test-USDC; not production revenue.","potentialAction":{"@type":"UseAction","target":["https://drkdm4jd-8767.uks1.devtunnels.ms/mcp","https://drkdm4jd-8767.uks1.devtunnels.ms/api/certify"]}}
+{"@context":"https://schema.org","@type":"WebAPI","name":"ProofRail MCP","description":"MCP server verification, testing, evaluation and compatibility preflight before deployment.","url":"https://kaattaallaa-sketch.github.io/proofrail-mcp/","documentation":"https://kaattaallaa-sketch.github.io/proofrail-mcp/llms.txt","serviceType":"MCP server verification","termsOfService":"Gate 1 uses Base Sepolia test-USDC; not production revenue.","potentialAction":{"@type":"UseAction","target":["https://drkdm4jd-8767.uks1.devtunnels.ms/api/preflight","https://drkdm4jd-8767.uks1.devtunnels.ms/mcp","https://drkdm4jd-8767.uks1.devtunnels.ms/api/certify"]}}
 </script>
 <style>
 body{font-family:system-ui,-apple-system,sans-serif;max-width:760px;margin:64px auto;padding:0 22px;line-height:1.55;color:#161616}
@@ -26,6 +26,13 @@ a{color:#0759c7}.badge{display:inline-block;padding:.25rem .55rem;border:1px sol
 </p>
 <p>ProofRail checks MCP protocol negotiation, <code>tools/list</code>, tool schemas, Streamable HTTP transport and authentication classification. It returns <strong>PASS</strong>, <strong>FAIL</strong> or <strong>PARTIAL</strong> with a deterministic evidence receipt.</p>
 
+<h2>Start free</h2>
+<p>Run a no-payment MCP endpoint preflight first. It checks reachability, protocol negotiation, tool count and schema issues.</p>
+<ul>
+<li>HTTP preflight: <a href="https://drkdm4jd-8767.uks1.devtunnels.ms/api/preflight">POST /api/preflight</a></li>
+<li>MCP tool: <code>mcp_release_preflight</code></li>
+</ul>
+
 <h2>For agents</h2>
 <ul>
 <li>MCP endpoint: <a href="https://drkdm4jd-8767.uks1.devtunnels.ms/mcp">https://drkdm4jd-8767.uks1.devtunnels.ms/mcp</a></li>
@@ -41,6 +48,7 @@ a{color:#0759c7}.badge{display:inline-block;padding:.25rem .55rem;border:1px sol
 <ul>
 <li><code>health</code> — free service health</li>
 <li><code>proofrail_info</code> — free capability description</li>
+<li><code>mcp_release_preflight</code> — free endpoint check; no payment</li>
 <li><code>quote_certification</code> — free network/price quote</li>
 <li><code>mcp_release_certify</code> — x402-paid release certification</li>
 </ul>
