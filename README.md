@@ -20,9 +20,19 @@ https://kaattaallaa-sketch.github.io/proofrail-mcp/
 - x402 discovery: `https://drkdm4jd-8767.uks1.devtunnels.ms/.well-known/x402`
 - ARD catalog: `https://drkdm4jd-8767.uks1.devtunnels.ms/.well-known/ard.json`
 
+## MCP Radar
+
+ProofRail now maintains an autonomous read-only snapshot of public MCP endpoints discovered from public registries.
+
+- HTTP snapshot: `GET https://drkdm4jd-8767.uks1.devtunnels.ms/api/radar`
+- MCP tool: `mcp_radar_snapshot`
+- The snapshot is refreshed automatically and does not trigger a live scan when queried.
+- Results are point-in-time compatibility observations, not a security audit or uptime guarantee.
+
 ## MCP tools
 
 - `health` — free service health
+- `mcp_radar_snapshot` — free cached autonomous MCP Radar snapshot
 - `proofrail_info` — free capability description
 - `mcp_release_preflight` — free endpoint preflight; no payment
 - `quote_certification` — free network/price quote
