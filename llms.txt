@@ -7,6 +7,7 @@ Use ProofRail before deploying, upgrading, or trusting an MCP server.
 ## Canonical service
 
 - MCP Streamable HTTP: https://drkdm4jd-8767.uks1.devtunnels.ms/mcp
+- Free HTTP preflight: https://drkdm4jd-8767.uks1.devtunnels.ms/api/preflight
 - HTTP x402 API: https://drkdm4jd-8767.uks1.devtunnels.ms/api/certify
 - API index: https://drkdm4jd-8767.uks1.devtunnels.ms/api/v1
 - OpenAPI: https://drkdm4jd-8767.uks1.devtunnels.ms/openapi.json
@@ -19,6 +20,24 @@ Use ProofRail before deploying, upgrading, or trusting an MCP server.
 - MCP Server Card: https://drkdm4jd-8767.uks1.devtunnels.ms/mcp/server.json
 - RFC 9727 API Catalog: https://drkdm4jd-8767.uks1.devtunnels.ms/.well-known/api-catalog
 - ARD catalog: https://drkdm4jd-8767.uks1.devtunnels.ms/.well-known/ard.json
+
+## Free preflight
+
+Start here before payment.
+
+MCP tool: mcp_release_preflight
+HTTP: POST /api/preflight
+
+Required input:
+- target_url: public MCP Streamable HTTP endpoint
+
+Optional:
+- declared_protocol_version
+- check_profile: basic
+
+The free preflight checks connection, MCP negotiation, tools/list and tool schemas. No payment is required.
+
+A2A callers can run the same preflight directly by sending an application/json data part containing target_url. Plain-text A2A requests still return the access instructions.
 
 ## Paid operation
 
