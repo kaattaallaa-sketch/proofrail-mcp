@@ -28,6 +28,23 @@ https://kaattaallaa-sketch.github.io/proofrail-mcp/
 - `quote_certification` — free network/price quote
 - `mcp_release_certify` — x402-paid compatibility certification
 
+## GitHub Actions: preflight before deploy
+
+Coding agents and CI jobs can run the free preflight when they already have a concrete MCP URL:
+
+```yaml
+- name: ProofRail MCP preflight
+  id: proofrail
+  uses: kaattaallaa-sketch/proofrail-mcp@main
+  with:
+    target_url: ${{ vars.MCP_URL }}
+    fail_on_problem: "true"
+```
+
+Outputs: `connection`, `protocol_version`, `tools_count`, `schema_issues`, and `response_json`.
+
+This action uses the free no-payment preflight. The x402-paid `mcp_release_certify` operation remains a separate optional step for a deterministic PASS/FAIL/PARTIAL evidence receipt.
+
 ## Discovery
 
 ProofRail is distributed through:
