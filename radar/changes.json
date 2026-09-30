@@ -1,1393 +1,1293 @@
 {
   "schema_version": 1,
   "source": "multi_source_incremental",
-  "previous_completed_at": "2026-09-30T14:25:37.864Z",
-  "current_completed_at": "2026-09-30T14:32:53.922Z",
+  "previous_completed_at": "2026-09-30T14:32:53.922Z",
+  "current_completed_at": "2026-09-30T18:38:34.445Z",
   "summary": {
-    "total": 230,
+    "total": 213,
     "by_type": {
-      "NEW": 230
+      "PROTOCOL_CHANGED": 1,
+      "NEW": 212
     }
   },
   "changes": [
     {
+      "type": "PROTOCOL_CHANGED",
+      "target_url": "https://docs.bithuman.ai/docs-mcp",
+      "name": "ai.bithuman/docs",
+      "previous": "2025-06-18",
+      "current": "2025-11-25"
+    },
+    {
       "type": "NEW",
-      "target_url": "https://mcp.kolonie.ai/mcp",
-      "name": "ai.kolonie/kolonie",
+      "target_url": "https://mcp.paperlantern.ai/chat/mcp",
+      "name": "ai.paperlantern/code",
       "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://api.kontato.ai/mcp",
-      "name": "ai.kontato/kontato",
+      "target_url": "https://search-mcp.parallel.ai/mcp",
+      "name": "ai.parallel/search-mcp",
+      "current": "PARTIAL"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://task-mcp.parallel.ai/mcp",
+      "name": "ai.parallel/task-mcp",
+      "current": "PARTIAL"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://parceled.ai/api/mcp",
+      "name": "ai.parceled/mcp",
+      "current": "PARTIAL"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://www.partnerwith.ai/mcp",
+      "name": "ai.partnerwith/eous",
       "current": "PASS"
     },
     {
       "type": "NEW",
-      "target_url": "https://mcp.kooma.ai/mcp",
-      "name": "ai.kooma/kooma",
+      "target_url": "https://partsgraph.ai/api/mcp",
+      "name": "ai.partsgraph/catalog",
       "current": "PASS"
     },
     {
       "type": "NEW",
-      "target_url": "https://api.korala.ai/mcp",
-      "name": "ai.korala/mcp",
+      "target_url": "https://api.patentdata.ai/mcp",
+      "name": "ai.patentdata/patent-data",
       "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://api.korely.ai/agent/mcp",
-      "name": "ai.korely/memory",
+      "target_url": "https://mcp.pathbound.ai/mcp",
+      "name": "ai.pathbound/pathbound",
       "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://mcp.korey.ai/mcp",
-      "name": "ai.korey/mcp",
+      "target_url": "https://managed.payments.ai/api/mcp",
+      "name": "ai.payments.managed/payments-ai-mcp",
       "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://www.krtr.ai/api/mcp",
-      "name": "ai.krtr/krtr",
+      "target_url": "https://chat.pdfassistant.ai/mcp",
+      "name": "ai.pdfassistant/pdfassistant",
       "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://mcp.kubit.ai/mcp",
-      "name": "ai.kubit/mcp-server",
+      "target_url": "https://api.penholder.ai/mcp",
+      "name": "ai.penholder/penholder",
       "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://mcp.kumbuka.ai/mcp",
-      "name": "ai.kumbuka/kumbuka-server",
+      "target_url": "https://www.peregrini.ai/mcp",
+      "name": "ai.peregrini/common-pleas",
+      "current": "PASS"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://proxy.perfectmemory.ai/api/mcp",
+      "name": "ai.perfectmemory/perfect-memory",
       "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://mcp.ladderflow.ai/mcp",
-      "name": "ai.ladderflow/mcp",
+      "target_url": "https://app.perfloop.ai/mcp",
+      "name": "ai.perfloop/perfloop",
       "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://exchange.lamdis.ai/mcp",
-      "name": "ai.lamdis/exchange",
+      "target_url": "https://app.perlucem.ai/api/v1/mcp",
+      "name": "ai.perlucem/tbpi",
+      "current": "PARTIAL"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://petraport.ai/api/agent-commerce/v1/mcp",
+      "name": "ai.petraport/agent-commerce",
+      "current": "PARTIAL"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://phano.ai/api/v1/mcp",
+      "name": "ai.phano/intelligence",
+      "current": "PARTIAL"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://liminality.physea.ai/mcp",
+      "name": "ai.physea/liminality",
+      "current": "PARTIAL"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://api.picsha.ai/v1/mcp",
+      "name": "ai.picsha/picsha",
+      "current": "PARTIAL"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://api.pictomancer.ai/mcp",
+      "name": "ai.pictomancer/image-processing",
+      "current": "PASS"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://mcp.pigeonrelay.ai/mcp",
+      "name": "ai.pigeonrelay/pigeonrelay",
+      "current": "PARTIAL"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://api.pimea.ai/mcp/",
+      "name": "ai.pimea/pimea",
+      "current": "PARTIAL"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://mcp.pipe2.ai/mcp",
+      "name": "ai.pipe2/mcp",
+      "current": "PASS"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://mcp.pipeledger.ai/mcp",
+      "name": "ai.pipeledger/pipeledger",
+      "current": "PARTIAL"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://pixeldojo.ai/mcp",
+      "name": "ai.pixeldojo/mcp",
+      "current": "PARTIAL"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://mcp.playdrop.ai/mcp",
+      "name": "ai.playdrop/mcp",
+      "current": "PARTIAL"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://mcp.plcs.ai/mcp",
+      "name": "ai.plcs/plcs-ai",
+      "current": "PARTIAL"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://plero.ai/api/mcp",
+      "name": "ai.plero/plero",
+      "current": "PARTIAL"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://plith.ai/api/mcp",
+      "name": "ai.plith/plith",
+      "current": "PASS"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://api.plori.ai/mcp",
+      "name": "ai.plori/plori",
+      "current": "PARTIAL"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://plyto.ai/api/mcp",
+      "name": "ai.plyto/crm",
+      "current": "PARTIAL"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://pocketdrives.ai/mcp",
+      "name": "ai.pocketdrives/pocket-drives",
+      "current": "PASS"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://popdot.ai/api/mcp",
+      "name": "ai.popdot/popdot-mcp",
+      "current": "PASS"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://mcp.portablecontext.ai/mcp",
+      "name": "ai.portablecontext/pcd",
+      "current": "PARTIAL"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://porteur.ai/mcp",
+      "name": "ai.porteur/porteur",
+      "current": "PARTIAL"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://mcp.posteverywhere.ai/mcp",
+      "name": "ai.posteverywhere/mcp",
+      "current": "PARTIAL"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://srvr.postey.ai/mcp",
+      "name": "ai.postey/postey",
+      "current": "PARTIAL"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://api.postfleet.ai/api/mcp",
+      "name": "ai.postfleet/postfleet",
+      "current": "PARTIAL"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://mcp.povver.ai/mcp",
+      "name": "ai.povver/mcp-server",
+      "current": "PARTIAL"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://api.powerline.ai/v1/mcp",
+      "name": "ai.powerline/inbox-preview",
+      "current": "PASS"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://mcp.preape.ai",
+      "name": "ai.preape/preape",
+      "current": "PASS"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://preclick.ai/mcp",
+      "name": "ai.preclick/preclick-mcp",
+      "current": "PASS"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://mcp.prepublish.ai",
+      "name": "ai.prepublish/script-audit",
+      "current": "PASS"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://api.presentations.ai/mcp",
+      "name": "ai.presentations/presentations-ai",
+      "current": "PARTIAL"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://mcp.preuve.ai/mcp",
+      "name": "ai.preuve/mcp",
+      "current": "PARTIAL"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://api.primateintelligence.ai/mcp",
+      "name": "ai.primateintelligence/mcp",
+      "current": "PARTIAL"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://memory.primaxiom.ai/mcp",
+      "name": "ai.primaxiom.memory/reasongraph",
+      "current": "PARTIAL"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://primeta.ai/mcp",
+      "name": "ai.primeta/primeta",
+      "current": "PARTIAL"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://mcp.probitylabs.ai/mcp",
+      "name": "ai.probitylabs/wallet-reputation",
+      "current": "PASS"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://mcp.probr.ai/mcp",
+      "name": "ai.probr/probr",
+      "current": "PARTIAL"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://api.productnow-prod.com/mcp",
+      "name": "ai.productnow/productnow",
+      "current": "PARTIAL"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://profusia.ai/mcp",
+      "name": "ai.profusia/profusia",
+      "current": "PARTIAL"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://mcp.projectdata.ai/",
+      "name": "ai.projectdata/mpp-connector",
+      "current": "PARTIAL"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://projectlaunch.ai/mcp",
+      "name": "ai.projectlaunch/mcp",
+      "current": "PASS"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://prome.ai/api/marketplace-mcp",
+      "name": "ai.prome/care-core",
+      "current": "PARTIAL"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://mcp.promptarch.ai/mcp",
+      "name": "ai.promptarch/mcp",
+      "current": "PASS"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://promptsharp.ai/mcp",
+      "name": "ai.promptsharp/promptsharp",
+      "current": "PASS"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://proreach.ai/api/mcp",
+      "name": "ai.proreach/outreach",
+      "current": "PARTIAL"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://mcp.provenskills.ai/labs/mcp",
+      "name": "ai.provenskills/labs",
+      "current": "PARTIAL"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://gateway.proxygate.ai/mcp",
+      "name": "ai.proxygate/mcp",
       "current": null
     },
     {
       "type": "NEW",
-      "target_url": "https://soar-api.nevada-f99.workers.dev/mcp",
-      "name": "ai.lateos/soar-record-gateway",
-      "current": "PARTIAL"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://geocp.latlong.ai/mcp/",
-      "name": "ai.latlong/map-mcp",
+      "target_url": "https://mcp.pubfi.ai",
+      "name": "ai.pubfi/mcp",
       "current": "PASS"
     },
     {
       "type": "NEW",
-      "target_url": "https://latticenet.ai/mcp",
-      "name": "ai.latticenet/latticenet",
+      "target_url": "https://publishwith.ai/mcp",
+      "name": "ai.publishwith/mcp",
       "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://api.lattiq.ai/mcp",
-      "name": "ai.lattiq/x402-trading-signals",
+      "target_url": "https://api.pullpush.ai/mcp",
+      "name": "ai.pullpush/pullpush-mcp",
       "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://mcp.law.ai",
-      "name": "ai.law.mcp/lawyer-search",
+      "target_url": "https://app.purrplan.ai/api/mcp",
+      "name": "ai.purrplan/purrplan",
       "current": "PASS"
     },
     {
       "type": "NEW",
-      "target_url": "https://mcp.lazyads.ai/mcp",
-      "name": "ai.lazyads/mcp",
+      "target_url": "https://pyrimid.ai/api/mcp",
+      "name": "ai.pyrimid/pyrimid",
       "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://app.lenshub.ai/mcp",
-      "name": "ai.lenshub/lenshub",
+      "target_url": "https://mcp.qcdatabase.ai/mcp",
+      "name": "ai.qcdatabase/mcp",
       "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://mcp.levelfour.ai/mcp",
-      "name": "ai.levelfour/levelfour-mcp",
+      "target_url": "https://mcp-eu.qlane.ai/api/mcp",
+      "name": "ai.qlane/qlane",
       "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://api.libers.ai/mcp/libers-suite",
-      "name": "ai.libers/libers-suite",
+      "target_url": "https://mcp-us.qlane.ai/api/mcp",
+      "name": "ai.qlane/qlane",
       "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://mcp.licensy.ai/mcp",
-      "name": "ai.licensy/mcp-server",
+      "target_url": "https://qr-manager.ai/api/mcp",
+      "name": "ai.qr-manager/qr-manager",
       "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://api.lifeisagame.ai/mcp/conquer-fear",
-      "name": "ai.lifeisagame/conquer-fear",
+      "target_url": "https://api.qualityclouds.ai/mcp",
+      "name": "ai.qualityclouds/norma",
       "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://signal.lifeisagame.ai/mcp",
-      "name": "ai.lifeisagame/signal-not-noise",
-      "current": "PARTIAL"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://lightdrift.ai/mcp",
-      "name": "ai.lightdrift/images",
-      "current": "PARTIAL"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://api.limitguard.ai/mcp",
-      "name": "ai.limitguard.api/trust-intelligence",
+      "target_url": "https://mcp.quantifyme.ai/mcp",
+      "name": "ai.quantifyme/quantifyme",
       "current": "PASS"
     },
     {
       "type": "NEW",
-      "target_url": "https://api.limurse.ai/mcp",
-      "name": "ai.limurse/limurse",
+      "target_url": "https://api.quickcasa.ai/v1/mcp",
+      "name": "ai.quickcasa/quickcasa",
       "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://mcp.limy.ai/mcp",
-      "name": "ai.limy/limy",
+      "target_url": "https://mcp.quillhub.ai/mcp",
+      "name": "ai.quillhub/mcp",
       "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://mcp.line9.ai/mcp",
-      "name": "ai.line9/diagrams",
+      "target_url": "https://quotefirst.ai/api/mcp",
+      "name": "ai.quotefirst/quotefirst",
       "current": "PASS"
     },
     {
       "type": "NEW",
-      "target_url": "https://api.liquidagent.ai/mcp",
-      "name": "ai.liquidagent.api/liquid-agent",
+      "target_url": "https://raccha.ai/mcp",
+      "name": "ai.raccha/raccha",
       "current": "PASS"
     },
     {
       "type": "NEW",
-      "target_url": "https://api.livecrm.ai/mcp",
-      "name": "ai.livecrm/livecrm",
-      "current": "PARTIAL"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://ai-in-research.livingmeta.ai/mcp",
-      "name": "ai.livingmeta/ai-in-research",
-      "current": "PARTIAL"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://mcp.llamanotes.ai/mcp",
-      "name": "ai.llamanotes/llamanotes",
-      "current": "PARTIAL"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://llmhosting.ai/mcp",
-      "name": "ai.llmhosting/pricing",
+      "target_url": "https://radiomatic.ai/mcp/",
+      "name": "ai.radiomatic/radiomatic",
       "current": "PASS"
     },
     {
       "type": "NEW",
-      "target_url": "https://llmintel.ai/v1/mcp",
-      "name": "ai.llmintel/model-lifecycle",
-      "current": "PASS"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://llmse.ai/mcp",
-      "name": "ai.llmse/mcp",
-      "current": "PASS"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://localhero.ai/mcp",
-      "name": "ai.localhero/localhero",
+      "target_url": "https://www.radiusos.ai/api/mcp",
+      "name": "ai.radiusos.www/crm",
       "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://mcp.loci-labs.ai/mcp",
-      "name": "ai.loci-labs/real-world-observations",
+      "target_url": "https://mcp.radixia.ai/mcp",
+      "name": "ai.radixia/blog",
       "current": "PASS"
     },
     {
       "type": "NEW",
-      "target_url": "https://lovora.ai/mcp",
-      "name": "ai.lovora/lovora",
+      "target_url": "https://radmail.ai/api/mcp/sandbox",
+      "name": "ai.radmail/radmail-mcp",
       "current": "PASS"
     },
     {
       "type": "NEW",
-      "target_url": "https://api.lucasandersen.ai/mcp",
-      "name": "ai.lucasandersen/mlp-tax",
+      "target_url": "https://mcp.raisonn.ai/mcp",
+      "name": "ai.raisonn/connect",
+      "current": "PARTIAL"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://worker.rams.ai/mcp",
+      "name": "ai.rams/rams",
       "current": "PASS"
     },
     {
       "type": "NEW",
-      "target_url": "https://mcp.ludo.ai/mcp",
-      "name": "ai.ludo/game-assets",
+      "target_url": "https://mcp.rapportscore.ai/mcp",
+      "name": "ai.rapportscore/rapportscore",
+      "current": "PARTIAL"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://mcp.ravenmcp.ai/api/mcp",
+      "name": "ai.ravenmcp/raven-mcp",
       "current": "PASS"
     },
     {
       "type": "NEW",
-      "target_url": "https://lumify.ai/mcp",
-      "name": "ai.lumify/sports-intelligence",
+      "target_url": "https://mcp.rayana.ai/mcp",
+      "name": "ai.rayana/rayana-ai",
       "current": "PASS"
     },
     {
       "type": "NEW",
-      "target_url": "https://app.magicinsights.ai/api/mcp",
-      "name": "ai.magicinsights/insights",
-      "current": "PARTIAL"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://maguyva.tools/mcp",
-      "name": "ai.maguyva/maguyva",
-      "current": "PARTIAL"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://mailmcp.ai/mcp",
-      "name": "ai.mailmcp/mailmcp",
-      "current": "PARTIAL"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://mcp.mainbook.ai/mcp",
-      "name": "ai.mainbook/bank-statement-converter",
+      "target_url": "https://rnfonkwthefktfvfwypr.supabase.co/functions/v1/mcp-server",
+      "name": "ai.readypermit/geo",
       "current": "PASS"
     },
     {
       "type": "NEW",
-      "target_url": "https://mcp.mainroom.ai/mcp",
-      "name": "ai.mainroom/meeting-agents",
+      "target_url": "https://realastat.ai/api/mcp",
+      "name": "ai.realastat/realastat",
+      "current": "PARTIAL"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://redditgrow.ai/mcp",
+      "name": "ai.redditgrow/mcp",
+      "current": "PARTIAL"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://mcp.reduck.ai/mcp",
+      "name": "ai.reduck/reduck",
+      "current": "PARTIAL"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://api.refd.ai/mcp",
+      "name": "ai.refd/refd",
+      "current": "PARTIAL"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://reglayer.ai/mcp",
+      "name": "ai.reglayer/instant-decision-briefs",
       "current": "PASS"
     },
     {
       "type": "NEW",
-      "target_url": "https://mcp.makeaivideo.ai",
-      "name": "ai.makeaivideo/video-generator",
-      "current": "PARTIAL"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://makerportal.ai/api/mcp",
-      "name": "ai.makerportal/compute",
+      "target_url": "https://regulations.ai/api/mcp/v1",
+      "name": "ai.regulations/regulations-ai",
       "current": "PASS"
     },
     {
       "type": "NEW",
-      "target_url": "https://mcp.mangii.ai/mcp",
-      "name": "ai.mangii/manga",
+      "target_url": "https://mcp.reka.ai/mcp",
+      "name": "ai.reka/mcp",
       "current": "PASS"
     },
     {
       "type": "NEW",
-      "target_url": "https://mcp.mapmap.ai/mcp",
-      "name": "ai.mapmap/mapmap",
+      "target_url": "https://api.relaystation.ai/mcp",
+      "name": "ai.relaystation/relaystation",
       "current": "PASS"
     },
     {
       "type": "NEW",
-      "target_url": "https://mcp.marcora.ai/",
-      "name": "ai.marketcore/mcp",
-      "current": "PARTIAL"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://marketcrew.ai/mcp",
-      "name": "ai.marketcrew/market-data",
-      "current": "PASS"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://api.marketintell.ai/mcp",
-      "name": "ai.marketintell/marketintell",
-      "current": "PASS"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://api.markettrace.ai/mcp",
-      "name": "ai.markettrace/agent-feed",
-      "current": "PARTIAL"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://masaro.ai/api/mcp/mcp",
-      "name": "ai.masaro/masaro",
-      "current": "PARTIAL"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://masnavi.ai/mcp",
-      "name": "ai.masnavi/masnavi",
-      "current": "PASS"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://mcp.matih.ai/api/v1/mcp",
-      "name": "ai.matih/mcp",
-      "current": "PARTIAL"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://maxcv.ai/mcp",
-      "name": "ai.maxcv/resume",
-      "current": "PASS"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://synap-mcp.maximem.ai/mcp",
-      "name": "ai.maximem/synap",
-      "current": "PASS"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://api.mazdek.ai/api/mcp",
-      "name": "ai.mazdek/mazdek-ai",
-      "current": "PARTIAL"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://api.mcpanalytics.ai/auth0",
-      "name": "ai.mcpanalytics/analytics",
-      "current": "PARTIAL"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://api.mcpanalytics.ai/mcp/api-key",
-      "name": "ai.mcpanalytics/analytics",
-      "current": "PASS"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://mcpjunction.ai/mcp",
-      "name": "ai.mcpjunction/directory",
-      "current": "PASS"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://mcpmyadmin.ai/mcp",
-      "name": "ai.mcpmyadmin/mcpmyadmin",
-      "current": "PARTIAL"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://api.meacheal.ai/mcp",
-      "name": "ai.meacheal/mrc-data",
-      "current": "PASS"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://mcp.meeting.ai/mcp",
-      "name": "ai.meeting/memo-mcp",
-      "current": "PARTIAL"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://meetlark.ai/mcp",
-      "name": "ai.meetlark/mcp-server",
-      "current": "PASS"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://mcp.meetsquad.ai/mcp",
-      "name": "ai.meetsquad/squad",
-      "current": "PARTIAL"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://megalens.ai/api/mcp",
-      "name": "ai.megalens/mcp",
-      "current": "PARTIAL"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://e4rdb2jtk6.execute-api.us-east-1.amazonaws.com/mcp",
-      "name": "ai.mekler/agent-discovery",
-      "current": "PARTIAL"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://peer-review.meltstudio.ai/api/mcp",
-      "name": "ai.meltstudio/peer-review",
-      "current": "PARTIAL"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://memcell.ai/mcp",
-      "name": "ai.memcell/memcell",
-      "current": "PARTIAL"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://mcp.memestack.ai/mcp",
-      "name": "ai.memestack/mcp",
-      "current": "PASS"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://meminal.ai/mcp",
-      "name": "ai.meminal/meminal",
-      "current": "PARTIAL"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://memocore.ai/mcp",
-      "name": "ai.memocore/mcp",
-      "current": "PARTIAL"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://mcp.memoket.ai/mcp",
-      "name": "ai.memoket/memoket",
-      "current": "PASS"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://mcp.memoryrouter.ai/mcp",
-      "name": "ai.memoryrouter/memoryrouter",
-      "current": "PASS"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://mentionagent.ai/mcp",
-      "name": "ai.mentionagent/mentionagent",
-      "current": "PARTIAL"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://merchantflow.ai/api/mcp",
-      "name": "ai.merchantflow/mcp",
-      "current": "PARTIAL"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://mcp.metabind.ai/IgJH0BzIn4LlfnCbcDc7/projects/GLbHk5i3GLlIYcF63XFl",
-      "name": "ai.metabind/banking-assistant",
-      "current": "PASS"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://docs.metabind.ai/mcp",
-      "name": "ai.metabind/docs",
-      "current": "PASS"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://app.mindola.ai/mcp/lens",
-      "name": "ai.mindola/lens",
-      "current": "PASS"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://mino.ai/mcp",
-      "name": "ai.mino/web-agent",
-      "current": "PARTIAL"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://mitosislabs.ai/api/mcp",
-      "name": "ai.mitosislabs/mitosis",
-      "current": "PASS"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://mcp.modelrunner.run/mcp",
-      "name": "ai.modelrunner/mcp",
-      "current": "PARTIAL"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://www.modulos.ai/api/mcp/",
-      "name": "ai.modulos/demo-booking",
-      "current": "PARTIAL"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://moonlings.ai/api/mcp",
-      "name": "ai.moonlings/moonlings",
-      "current": "PASS"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://morelike.ai/mcp",
-      "name": "ai.morelike/morelike",
-      "current": "PARTIAL"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://morphareels.ai/mcp",
-      "name": "ai.morphareels/morpha",
-      "current": "PASS"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://api.motiblog.ai/mcp",
-      "name": "ai.motiblog/mcp",
-      "current": "PARTIAL"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://mcp.moxt.ai/openapi/v1/mcp",
-      "name": "ai.moxt/mcp-workspace",
-      "current": "PARTIAL"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://mcp.mozark.ai",
-      "name": "ai.mozark/mcp",
-      "current": "PARTIAL"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://mcp.mrmarket.ai/mcp",
-      "name": "ai.mrmarket/mrmarket-mcp",
+      "target_url": "https://mcp.responsibleailabs.ai/mcp",
+      "name": "ai.responsibleailabs/rail-score",
       "current": null
     },
     {
       "type": "NEW",
-      "target_url": "https://msza.ai/mcp",
-      "name": "ai.msza/polish-catholic-sermons",
+      "target_url": "https://resumax.ai/api/mcp",
+      "name": "ai.resumax/resumax",
+      "current": "PARTIAL"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://mcp.retrodiffusion.ai/mcp",
+      "name": "ai.retrodiffusion/pixel-art",
       "current": "PASS"
     },
     {
       "type": "NEW",
-      "target_url": "https://muffed.ai/api/mcp",
-      "name": "ai.muffed/muffed",
+      "target_url": "https://api.revelara.ai/mcp",
+      "name": "ai.revelara/mcp",
+      "current": "PARTIAL"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://www.revuo.ai/api/mcp",
+      "name": "ai.revuo/revuo",
       "current": "PASS"
     },
     {
       "type": "NEW",
-      "target_url": "https://api.multi-turn.ai/mcp",
-      "name": "ai.multi-turn/enacta",
-      "current": "PARTIAL"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://mcp.multinex.ai/mcp/v1",
-      "name": "ai.multinex/memq",
-      "current": "PARTIAL"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://mcp.multiservicios.ai/mcp",
-      "name": "ai.multiservicios/services",
+      "target_url": "https://mcp.rfix.ai/mcp",
+      "name": "ai.rfix/mcp",
       "current": "PASS"
     },
     {
       "type": "NEW",
-      "target_url": "https://api.mymarky.ai/api/mcp",
-      "name": "ai.mymarky/marky",
+      "target_url": "https://rfp.ai/api/mcp",
+      "name": "ai.rfp/rfp-ai",
       "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://app.mypenny.ai/mcp",
-      "name": "ai.mypenny/mypenny",
+      "target_url": "https://syri.rfsrisk.ai/mcp",
+      "name": "ai.rfsrisk/syri",
       "current": "PASS"
     },
     {
       "type": "NEW",
-      "target_url": "https://myplot.ai/mcp",
-      "name": "ai.myplot/property-intelligence",
-      "current": "PARTIAL"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://app.myriade.ai/mcp/",
-      "name": "ai.myriade/myriade",
+      "target_url": "https://mcp.rightcard.ai/mcp",
+      "name": "ai.rightcard/mcp",
       "current": "PASS"
     },
     {
       "type": "NEW",
-      "target_url": "https://mcp.mysiren.ai/mcp",
-      "name": "ai.mysiren/siren",
+      "target_url": "https://app.rise2.ai/mcp",
+      "name": "ai.rise2/figlime",
+      "current": "PARTIAL"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://api.riskstate.ai/mcp",
+      "name": "ai.riskstate/mcp",
       "current": "PASS"
     },
     {
       "type": "NEW",
-      "target_url": "https://mcp.mythex.ai/mcp",
-      "name": "ai.mythex/mythex",
+      "target_url": "https://app.rithmo.ai/api/mcp",
+      "name": "ai.rithmo/rithmo",
       "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://atlas.n3tz.ai/mcp",
-      "name": "ai.n3tz/atlas",
-      "current": "PARTIAL"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://mcp.name.ai/mcp",
-      "name": "ai.name/nameai-mcp",
+      "target_url": "https://api.roamtime.ai/mcp",
+      "name": "ai.roamtime/foliage",
       "current": "PASS"
     },
     {
       "type": "NEW",
-      "target_url": "https://namewhisper.ai/mcp",
-      "name": "ai.namewhisper/ens-tools",
+      "target_url": "https://api.robinlawyer.ai/mcp",
+      "name": "ai.robinlawyer/robinlawyer",
+      "current": "PARTIAL"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://mcp.robomart.ai/mcp",
+      "name": "ai.robomart/robomart",
       "current": "PASS"
     },
     {
       "type": "NEW",
-      "target_url": "https://nashboard.ai/mcp",
-      "name": "ai.nashboard/nashboard-merchants",
+      "target_url": "https://api.robosystems.ai/v1/mcp",
+      "name": "ai.robosystems/robosystems",
       "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://mcp.nativeads.ai/mcp",
-      "name": "ai.nativeads/mcp",
-      "current": "PARTIAL"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://api.nativeport.ai/mcp",
-      "name": "ai.nativeport/mcp",
-      "current": "PARTIAL"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://naumu.ai/api/mcp",
-      "name": "ai.naumu/mcp",
-      "current": "PARTIAL"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://mcp.nefesh.ai/mcp",
-      "name": "ai.nefesh/human-state",
+      "target_url": "https://www.robowrite.ai/api/mcp",
+      "name": "ai.robowrite/mcp",
       "current": "PASS"
     },
     {
       "type": "NEW",
-      "target_url": "https://onlarfokemwasskttroh.supabase.co/functions/v1/neo-mcp",
-      "name": "ai.neocapital/neo",
+      "target_url": "https://robutler.ai/mcp",
+      "name": "ai.robutler/robutler",
       "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://app.neuroviz.ai/mcp",
-      "name": "ai.neuroviz/jewelry-photography",
+      "target_url": "https://mcp.roc.ai/mcp",
+      "name": "ai.roc/mcp",
       "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://newdesk.ai/api/mcp",
-      "name": "ai.newdesk/newdesk",
-      "current": "PARTIAL"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://api.newzai.ai/mcp/",
-      "name": "ai.newzai.api/NewzAI",
-      "current": "PARTIAL"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://api.newzai.ai/mcp",
-      "name": "ai.newzai.api/news-mcp",
-      "current": "PARTIAL"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://nexez.app/mcp",
-      "name": "ai.nexez/commerce",
+      "target_url": "https://rocketlist.ai/mcp",
+      "name": "ai.rocketlist/rocketlist",
       "current": "PASS"
     },
     {
       "type": "NEW",
-      "target_url": "https://ninar.ai/mcp",
-      "name": "ai.ninar/ninar",
+      "target_url": "https://rocketsloth.ai/mcp",
+      "name": "ai.rocketsloth/rocketsloth",
       "current": "PASS"
     },
     {
       "type": "NEW",
-      "target_url": "https://www.ninjachat.ai/api/mcp",
-      "name": "ai.ninjachat/mcp",
-      "current": "PARTIAL"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://verify.noevant.ai/mcp",
-      "name": "ai.noevant/fidenta-verify",
+      "target_url": "https://mcp.rockmoon.ai/mcp",
+      "name": "ai.rockmoon/financial-data",
       "current": "PASS"
     },
     {
       "type": "NEW",
-      "target_url": "https://mcp.nordax.ai/mcp",
-      "name": "ai.nordax/mcp",
+      "target_url": "https://mcp.roic.ai/mcp",
+      "name": "ai.roic/roic",
+      "current": "PARTIAL"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://rokha.ai/mcp/jsonrpc",
+      "name": "ai.rokha/rokha",
       "current": "PASS"
     },
     {
       "type": "NEW",
-      "target_url": "https://content-craft-api.norg.ai/v2/mcp/express",
-      "name": "ai.norg/express",
-      "current": "PARTIAL"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://mcp.normhyra.ai/",
-      "name": "ai.normhyra/normhyra",
+      "target_url": "https://mcp.roopslaw.ai/mcp",
+      "name": "ai.roopslaw/legalsearch",
       "current": "PASS"
     },
     {
       "type": "NEW",
-      "target_url": "https://northlit.ai/api/mcp",
-      "name": "ai.northlit/northlit",
-      "current": "PARTIAL"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://api.note1.ai/mcp",
-      "name": "ai.note1/mcp",
-      "current": "PARTIAL"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://api.novence.ai/mcp",
-      "name": "ai.novence/mcp",
+      "target_url": "https://roosteragents.ai/agent-economy/mcp",
+      "name": "ai.roosteragents/agent-economy",
       "current": "PASS"
     },
     {
       "type": "NEW",
-      "target_url": "https://noveum.ai/api/mcp",
-      "name": "ai.noveum/noveum",
-      "current": "PARTIAL"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://mcp.nowen.ai/api/mcp",
-      "name": "ai.nowen/nowen",
-      "current": "PARTIAL"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://mcp.nudg3.ai/mcp",
-      "name": "ai.nudg3/brand-intelligence",
-      "current": "PARTIAL"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://mcp.nullary.ai/mcp",
-      "name": "ai.nullary/nullary",
+      "target_url": "https://roosteragents.ai/mcp",
+      "name": "ai.roosteragents/gateway",
       "current": "PASS"
     },
     {
       "type": "NEW",
-      "target_url": "https://mcp.nuramem.ai/mcp",
-      "name": "ai.nuramem/nuramem",
+      "target_url": "https://roosteragents.ai/switchboard/mcp",
+      "name": "ai.roosteragents/switchboard",
+      "current": "PASS"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://rootdata.ai/api/mcp",
+      "name": "ai.rootdata/public-directory",
+      "current": "PASS"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://www.roryplans.ai/api/mcp",
+      "name": "ai.roryplans/roryplans",
       "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://api.obaron.ai/aeo/mcp",
-      "name": "ai.obaron/aeo",
+      "target_url": "https://mcp.router.ai/mcp",
+      "name": "ai.router/ai-gateway",
+      "current": "PASS"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://routing24.ai/mcp",
+      "name": "ai.routing24/mcp",
+      "current": "PARTIAL"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://api.runx.ai/mcp",
+      "name": "ai.runx/runx",
+      "current": "PASS"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://mcp.rxmanager.ai/mcp",
+      "name": "ai.rxmanager/mcp",
+      "current": "PASS"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://mcp.ryla.ai/mcp",
+      "name": "ai.ryla/ryla",
+      "current": "PASS"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://cryptopulse.saascloud.ai/mcp",
+      "name": "ai.saascloud/cryptopulse",
+      "current": "PASS"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://mcp.sacs.ai/mcp",
+      "name": "ai.sacs/sacs-mcp",
+      "current": "PASS"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://api.safe4.ai/mcp/",
+      "name": "ai.safe4/safe4",
+      "current": "PASS"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://customer-tiering-mcp-latest.saifs.ai/mcp",
+      "name": "ai.saifs/customer-intelligence",
+      "current": "PARTIAL"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://demand-forecaster-mcp.saifs.ai/mcp",
+      "name": "ai.saifs/demand-forecasting",
+      "current": "PARTIAL"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://transport-agent-claude.saifs.ai/mcp",
+      "name": "ai.saifs/indian-railways-irctc",
+      "current": "PARTIAL"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://inventory-optimizer-mcp.saifs.ai/mcp",
+      "name": "ai.saifs/inventory-intelligence-optimizer",
+      "current": "PARTIAL"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://lead-scoring-mcp.saifs.ai/mcp",
+      "name": "ai.saifs/lead-intelligence",
+      "current": "PARTIAL"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://marketing-analysis-mcp.saifs.ai/mcp",
+      "name": "ai.saifs/marketing-intelligence",
+      "current": "PARTIAL"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://mcp.saifs.ai/mcp",
+      "name": "ai.saifs/media-generator-images-videos",
+      "current": "PARTIAL"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://synthetic-mint-mcp.saifs.ai/mcp",
+      "name": "ai.saifs/synthetic-data-random-user",
+      "current": "PARTIAL"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://mcp.saltapp.ai/mcp",
+      "name": "ai.saltapp/salt",
+      "current": "PARTIAL"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://api.saltybytes.ai/mcp",
+      "name": "ai.saltybytes/recipes",
+      "current": "PARTIAL"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://satohub.ai/api/mcp",
+      "name": "ai.satohub/onchain-agents",
+      "current": "PASS"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://satoshidata.ai/mcp/v1/",
+      "name": "ai.satoshidata/wallet-intelligence",
+      "current": "PASS"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://scamverify.ai/api/mcp",
+      "name": "ai.scamverify/mcp",
       "current": null
     },
     {
       "type": "NEW",
-      "target_url": "https://mcp.obris.ai/",
-      "name": "ai.obris/mcp",
+      "target_url": "https://mcp.schemalabs.ai/mcp",
+      "name": "ai.schemalabs/schema",
       "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://api.aisecuritygateway.ai/mcp",
-      "name": "ai.occludra/mcp-gateway",
+      "target_url": "https://api.scite.ai/mcp",
+      "name": "ai.scite/mcp",
       "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://mcp.oceantoken.ai/mcp",
-      "name": "ai.oceantoken/mcp",
-      "current": "PARTIAL"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://mcp.oddsockets.ai/mcp",
-      "name": "ai.oddsockets/remote-mcp",
+      "target_url": "https://scoreia.ai/mcp",
+      "name": "ai.scoreia/bench",
       "current": "PASS"
     },
     {
       "type": "NEW",
-      "target_url": "https://api.odei.ai/mcp",
-      "name": "ai.odei/connect",
+      "target_url": "https://scoreia.ai/forge/mcp",
+      "name": "ai.scoreia/forge",
       "current": "PASS"
     },
     {
       "type": "NEW",
-      "target_url": "https://mcp.offerhopper.ai/mcp",
-      "name": "ai.offerhopper.mcp/german-grocery-assistant",
+      "target_url": "https://scoreia.ai/open-labyrinth/mcp",
+      "name": "ai.scoreia/open-labyrinth",
       "current": "PASS"
     },
     {
       "type": "NEW",
-      "target_url": "https://mcp.ohmyfin.ai/mcp",
-      "name": "ai.ohmyfin/banking-intelligence",
+      "target_url": "https://mcp.scout7.ai/mcp",
+      "name": "ai.scout7/scout7",
+      "current": "PARTIAL"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://mcp.sealgate.ai/mcp",
+      "name": "ai.sealgate/gateway",
+      "current": "PARTIAL"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://mcp.seaotter.ai/mcp",
+      "name": "ai.seaotter/otterscore",
+      "current": "PARTIAL"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://searchconsole.ai/mcp",
+      "name": "ai.searchconsole/searchconsole-ai",
+      "current": "PARTIAL"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://searcheros.ai/api/mcp/mcp",
+      "name": "ai.searcheros/searcher-os",
+      "current": "PARTIAL"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://searchshopai-mcp.fly.dev/mcp/la-luer",
+      "name": "ai.searchshop.www/la-luer",
       "current": "PASS"
     },
     {
       "type": "NEW",
-      "target_url": "https://mcp.omnisignal.ai/mcp",
-      "name": "ai.omnisignal/omnisignal",
-      "current": "PARTIAL"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://omnitravel.ai/mcp",
-      "name": "ai.omnitravel/travelmcp-directory",
+      "target_url": "https://searchshopai-mcp.fly.dev/mcp/apostleman",
+      "name": "ai.searchshop/apostleman",
       "current": "PASS"
     },
     {
       "type": "NEW",
-      "target_url": "https://engram.onedroid.ai/mcp",
-      "name": "ai.onedroid/engram",
+      "target_url": "https://api.secapi.ai/mcp",
+      "name": "ai.secapi/secapi",
       "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://synapse.onedroid.ai/agent/mcp",
-      "name": "ai.onedroid/synapse",
+      "target_url": "https://api.seendb.ai/mcp",
+      "name": "ai.seendb/seendb",
       "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://mcp.onelore.ai",
-      "name": "ai.onelore/lore",
+      "target_url": "https://mcp.selda.ai/api/mcp",
+      "name": "ai.selda/selda",
       "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://api.onsa.ai/api/mcp",
-      "name": "ai.onsa/onsa",
+      "target_url": "https://mcp.seldons.ai/mcp",
+      "name": "ai.seldons/korea-business-trade",
+      "current": "PARTIAL"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://www.sellerforge.ai/api/mcp",
+      "name": "ai.sellerforge/sellerforge",
+      "current": "PARTIAL"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://api.sellermate.ai/mcp/sse",
+      "name": "ai.sellermate/amazon-ads",
+      "current": "PARTIAL"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://mcp.seltz.ai/mcp",
+      "name": "ai.seltz/seltz-ai-seltz-mcp",
+      "current": "PARTIAL"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://mcp.senaro.ai/mcp",
+      "name": "ai.senaro/personal-finance",
       "current": "PASS"
     },
     {
       "type": "NEW",
-      "target_url": "https://onzero.ai/mcp",
-      "name": "ai.onzero/creative-studio",
-      "current": "PARTIAL"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://mcp.sap.oobeprotocol.ai/mcp",
-      "name": "ai.oobeprotocol.sap.mcp/sap-mcp",
-      "current": "PARTIAL"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://mcp.openarx.ai/researcher/mcp",
-      "name": "ai.openarx/openarx",
-      "current": "PARTIAL"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://mcp.openaso.ai/mcp",
-      "name": "ai.openaso/openaso",
-      "current": "PARTIAL"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://openbash.ai/api/mcp",
-      "name": "ai.openbash/openbash",
-      "current": "PARTIAL"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://mcp.openhelm.ai/research/mcp",
-      "name": "ai.openhelm/deep-research",
-      "current": "PARTIAL"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://mcp.openhelm.ai/dev/mcp",
-      "name": "ai.openhelm/dev-changes",
-      "current": "PARTIAL"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://mcp.openhelm.ai/email/mcp",
-      "name": "ai.openhelm/email-outreach",
-      "current": "PARTIAL"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://mcp.openhelm.ai/watch/mcp",
-      "name": "ai.openhelm/monitoring",
-      "current": "PARTIAL"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://mcp.openhelm.ai/main/mcp",
-      "name": "ai.openhelm/openhelm",
-      "current": "PARTIAL"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://mcp.openhelm.ai/seo/mcp",
-      "name": "ai.openhelm/seo-growth",
-      "current": "PARTIAL"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://mcp.openmandate.ai/mcp",
-      "name": "ai.openmandate/mcp",
+      "target_url": "https://sendafax.ai/api/mcp",
+      "name": "ai.sendafax/sendafax",
       "current": "PASS"
     },
     {
       "type": "NEW",
-      "target_url": "https://mcp.openmayhem.ai/mcp",
-      "name": "ai.openmayhem/openmayhem",
+      "target_url": "https://sendfast.ai/api/mcp",
+      "name": "ai.sendfast/sendfast",
       "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://mcp.opinly.ai/mcp",
-      "name": "ai.opinly/opinly",
+      "target_url": "https://sendinel.ai/mcp",
+      "name": "ai.sendinel/mcp-server",
       "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://scout.optimly.ai/mcp",
-      "name": "ai.optimly/scout",
+      "target_url": "https://mcp.sendraven.ai/mcp",
+      "name": "ai.sendraven/mcp",
+      "current": "PASS"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://mcp.sengi.ai/mcp",
+      "name": "ai.sengi/sengi",
       "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://mcp.optux.ai",
-      "name": "ai.optux/mcp",
+      "target_url": "https://sentedge.ai/mcp",
+      "name": "ai.sentedge/idea-machine",
+      "current": "PASS"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://api.sentfrom.ai/mcp",
+      "name": "ai.sentfrom/mcp",
       "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://nimrod.orchis.ai/mcp",
-      "name": "ai.orchis/nimrod",
+      "target_url": "https://app.sentisense.ai/mcp",
+      "name": "ai.sentisense/market-intelligence",
       "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://index.organizewith.ai/mcp",
-      "name": "ai.organizewith/owai",
-      "current": "PARTIAL"
+      "target_url": "https://app.seomatic.ai/api/mcp",
+      "name": "ai.seomatic/seomatic",
+      "current": "PASS"
     },
     {
       "type": "NEW",
-      "target_url": "https://www.orggen.ai/api/mcp",
-      "name": "ai.orggen/orggen",
-      "current": "PARTIAL"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://relay.orgsdk.ai/mcp",
-      "name": "ai.orgsdk/mcp",
+      "target_url": "https://api.serff.ai/mcp",
+      "name": "ai.serff/ca-rate-filings",
       "current": null
     },
     {
       "type": "NEW",
-      "target_url": "https://origozero.ai/mcp",
-      "name": "ai.origozero/zeromind",
+      "target_url": "https://servana.ai/api/mcp",
+      "name": "ai.servana/servana",
+      "current": "PASS"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://api.sessionkeeper.ai/mcp",
+      "name": "ai.sessionkeeper/mcp",
       "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://api.orisu.ai/mcp",
-      "name": "ai.orisu/orisu",
+      "target_url": "https://mcp-public.sharebench.ai",
+      "name": "ai.sharebench/registry",
+      "current": "PASS"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://sharewatch.ai/mcp",
+      "name": "ai.sharewatch/sharewatch",
       "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://my.orq.ai/v2/mcp",
-      "name": "ai.orq/orq",
+      "target_url": "https://mcp.withone.ai/mcp",
+      "name": "ai.withone/mcp",
       "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://oruk.ai/mcp",
-      "name": "ai.oruk/speech",
+      "target_url": "https://nova.civai.co/mcp/agents/research-agent",
+      "name": "co.civai.nova/research-agent",
       "current": "PASS"
     },
     {
       "type": "NEW",
-      "target_url": "https://outfitmaker.ai/mcp",
-      "name": "ai.outfitmaker/outfit-assistant",
-      "current": "PASS"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://mcp.outlit.ai/mcp",
-      "name": "ai.outlit/outlit",
+      "target_url": "https://mcp.a2me.app/mcp",
+      "name": "io.github.Kinnectd/a2me-mcp-server",
       "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://api.outset.ai/mcp/",
-      "name": "ai.outset/mcp",
+      "target_url": "https://mcp.layers.com/mcp",
+      "name": "io.github.layers/mcp",
       "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://overwing.ai/mcp",
-      "name": "ai.overwing/mcp",
-      "current": "PASS"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://app.packmind.ai/mcp",
-      "name": "ai.packmind/mcp-server",
+      "target_url": "https://mcp.stellara.natlex.it/mcp",
+      "name": "it.natlex/stellara-mcp",
       "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://painspotter.ai/mcp",
-      "name": "ai.painspotter/painspotter",
+      "target_url": "https://api.mcp.ai/p_pref_ce_fortaleza_cnd",
+      "name": "io.github.mcp-dir/pref_ce_fortaleza_cnd-mcp",
       "current": "PASS"
     },
     {
       "type": "NEW",
-      "target_url": "https://palmyr.ai/mcp",
-      "name": "ai.palmyr/palmyr",
+      "target_url": "https://api.mcp.ai/p_pref_rj_rio_janeiro_multas",
+      "name": "io.github.mcp-dir/pref_rj_rio_janeiro_multas-mcp",
       "current": "PASS"
     },
     {
       "type": "NEW",
-      "target_url": "https://whois.ddnsip.cn/mcp",
-      "name": "io.github.KincaidYang/whois",
+      "target_url": "https://govauctions.app/api/mcp",
+      "name": "app.govauctions/govauctions",
       "current": "PASS"
     },
     {
       "type": "NEW",
-      "target_url": "https://mcp.dmarkoff.com/mcp",
-      "name": "com.dmarkoff/mcp",
+      "target_url": "https://api.mcp.ai/p_cpf_cadastral",
+      "name": "io.github.mcp-dir/cpf_cadastral-mcp",
+      "current": "PASS"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://api.mcp.ai/p_pref_go_morrinhos_cnd",
+      "name": "io.github.mcp-dir/pref_go_morrinhos_cnd-mcp",
+      "current": "PASS"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://gateway.pipeworx.io/ted-eu/mcp",
+      "name": "io.github.pipeworx-io/ted-eu",
+      "current": "PASS"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://api.mcp.ai/p_senatran_advertencia_escrito",
+      "name": "io.github.mcp-dir/senatran_advertencia_escrito-mcp",
+      "current": "PASS"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://api.mcp.ai/p_car_demonstrativo",
+      "name": "io.github.mcp-dir/car_demonstrativo-mcp",
+      "current": "PASS"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://api.mcp.ai/p_sintegra_ac",
+      "name": "io.github.mcp-dir/sintegra_ac-mcp",
+      "current": "PASS"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://api.mcp.ai/p_sefaz_al_certidao_debitos",
+      "name": "io.github.mcp-dir/sefaz_al_certidao_debitos-mcp",
+      "current": "PASS"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://api.mcp.ai/p_cvm",
+      "name": "io.github.mcp-dir/cvm-mcp",
+      "current": "PASS"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://api.mcp.ai/p_ecrvsp_docs_escolher_placa",
+      "name": "io.github.mcp-dir/ecrvsp_docs_escolher_placa-mcp",
+      "current": "PASS"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://mcp.dealmachine.com",
+      "name": "io.github.DealMachine/dealmachine",
       "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://api.githubcopilot.com/mcp/",
-      "name": "io.github.github/github-mcp-server",
+      "target_url": "https://api.mcp.ai/p_ibama_embargos",
+      "name": "io.github.mcp-dir/ibama_embargos-mcp",
+      "current": "PASS"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://trip1.com/api/mcp",
+      "name": "com.trip1/mcp",
+      "current": "PASS"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://api.mcp.ai/p_transparencia_servidores",
+      "name": "io.github.mcp-dir/transparencia_servidores-mcp",
+      "current": "PASS"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://api.mcp.ai/p_tribunal_trt16_ceat",
+      "name": "io.github.mcp-dir/tribunal_trt16_ceat-mcp",
+      "current": "PASS"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://mcp.storiez.io/api/mcp",
+      "name": "io.github.Storiez-Agents/storiezagents-mcp",
       "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://api.mcp.ai/p_hotmart",
-      "name": "io.github.mcp-dir/hotmart-mcp",
+      "target_url": "https://api.mcp.ai/p_cro_to_cadastro",
+      "name": "io.github.mcp-dir/cro_to_cadastro-mcp",
       "current": "PASS"
     },
     {
       "type": "NEW",
-      "target_url": "https://api.mcp.ai/p_receita_federal_nfse",
-      "name": "io.github.mcp-dir/receita_federal_nfse-mcp",
+      "target_url": "https://api.mcp.ai/p_sefaz_ba_ipva_notificado",
+      "name": "io.github.mcp-dir/sefaz_ba_ipva_notificado-mcp",
       "current": "PASS"
     },
     {
       "type": "NEW",
-      "target_url": "https://mcp.seocrawl.ai",
-      "name": "ai.seocrawl/mcp",
+      "target_url": "https://app.comunicate.top/mcp",
+      "name": "top.comunicate/publishing",
       "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://api.mcp.ai/p_pref_sp_sao_paulo_ait",
-      "name": "io.github.mcp-dir/pref_sp_sao_paulo_ait-mcp",
-      "current": "PASS"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://api.mcp.ai/p_youtube_email",
-      "name": "io.github.mcp-dir/youtube_email-mcp",
-      "current": "PASS"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://apistatuscheck.com/api/mcp",
-      "name": "io.github.shibley/apistatuscheck",
-      "current": "PASS"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://mcp.chatbase.co/api/mcp",
-      "name": "co.chatbase/chatbase",
+      "target_url": "https://wan.mcp.acedata.cloud/mcp",
+      "name": "io.github.AceDataCloud/mcp-wan",
       "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://corply.dev/mcp",
-      "name": "io.github.corply-dev/corply",
+      "target_url": "https://api.mcp.ai/p_sefaz_rj_certidao_debitos_cert",
+      "name": "io.github.mcp-dir/sefaz_rj_certidao_debitos_cert-mcp",
+      "current": "PASS"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://lets.usebrains.app/mcp",
+      "name": "io.github.brainsforai/brains-mcp-connector",
       "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://api.mcp.ai/p_pref_rs_porto_alegre_issqn",
-      "name": "io.github.mcp-dir/pref_rs_porto_alegre_issqn-mcp",
+      "target_url": "https://mcp.agenttrafficlab.com/mcp",
+      "name": "com.agenttrafficlab/atl",
       "current": "PASS"
     },
     {
       "type": "NEW",
-      "target_url": "https://api.bemlembrado.com/mcp",
-      "name": "io.github.skillab-tech/bemlembrado",
+      "target_url": "https://api.staats.ai/functions/v1/mcp",
+      "name": "io.github.MrViolets/staats",
+      "current": "PASS"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://mcp.plusai.com/",
+      "name": "io.github.PlusDocs/plus-ai-mcp",
       "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://api.mcp.ai/p_mercantil",
-      "name": "io.github.mcp-dir/mercantil-mcp",
+      "target_url": "https://wellpreppedlife.com/api/mcp",
+      "name": "io.github.asarogers/wellpreppedlife-booking",
       "current": "PASS"
     },
     {
       "type": "NEW",
-      "target_url": "https://api.mcp.ai/p_sintegra_rj",
-      "name": "io.github.mcp-dir/sintegra_rj-mcp",
-      "current": "PASS"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://mcp.localtry.com/mcp",
-      "name": "io.github.philly88r/localtry-mcp",
-      "current": "PARTIAL"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://api.mcp.ai/p_pref_sp_sao_paulo_divida_ativa",
-      "name": "io.github.mcp-dir/pref_sp_sao_paulo_divida_ativa-mcp",
-      "current": "PASS"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://mcp.peek.com",
-      "name": "com.peek/mcp",
-      "current": "PASS"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://api.mcp.ai/p_cnd_municipal",
-      "name": "io.github.mcp-dir/cnd_municipal-mcp",
-      "current": "PASS"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://api.mcp.ai/p_contas_cpfl_download_ocr",
-      "name": "io.github.mcp-dir/contas_cpfl_download_ocr-mcp",
-      "current": "PASS"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://mcp.dintak.com/mcp",
-      "name": "com.dintak/dintak-mcp-gateway",
-      "current": "PARTIAL"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://tnt-audit.com/api/mcp",
-      "name": "io.github.menantonio83-hue/tnt-house-risk-data-api",
-      "current": "PASS"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://api.mcp.ai/p_pref_mg_belo_horizonte_cnd",
-      "name": "io.github.mcp-dir/pref_mg_belo_horizonte_cnd-mcp",
-      "current": "PASS"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://nih-reporter-mcp-server-relaxed-bilby-co.app.cloud.gov/mcp",
-      "name": "io.github.GSA-TTS/nih-reporter-mcp-server",
-      "current": "PARTIAL"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://api.mcp.ai/p_sefaz_to_nfce",
-      "name": "io.github.mcp-dir/sefaz_to_nfce-mcp",
-      "current": "PASS"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://dephealth.dsh.sh/mcp",
-      "name": "io.github.ux-xd/dephealth",
-      "current": "PASS"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://api.mcp.ai/p_mercadopago",
-      "name": "io.github.mcp-dir/mercadopago-mcp",
-      "current": "PASS"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://gateway.pipeworx.io/advice/mcp",
-      "name": "io.github.pipeworx-io/advice",
-      "current": "PASS"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://api.mcp.ai/p_garmin",
-      "name": "io.github.mcp-dir/garmin-mcp",
-      "current": "PASS"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://app.11agents.ai/mcp",
-      "name": "io.github.11Agents/cloud-mcp",
-      "current": "PARTIAL"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://miromiro.app/mcp",
-      "name": "app.miromiro/miromiro",
-      "current": "PARTIAL"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://api.octoperf.com/mcp",
-      "name": "io.github.OctoPerf/octoperf",
-      "current": "PARTIAL"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://api.mcp.ai/p_contas_cemig_obter_instalacoes",
-      "name": "io.github.mcp-dir/contas_cemig_obter_instalacoes-mcp",
-      "current": "PASS"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://api.mcp.ai/p_ecrvsp_docs_t_municipio_0",
-      "name": "io.github.mcp-dir/ecrvsp_docs_t_municipio_0-mcp",
-      "current": "PASS"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://hive-mcp-gateway.onrender.com/passport/mcp",
-      "name": "io.github.srotzin/hive-mcp-passport",
-      "current": "PARTIAL"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://api.mcp.ai/p_pref_go_aparecida_goiania_cnd",
-      "name": "io.github.mcp-dir/pref_go_aparecida_goiania_cnd-mcp",
-      "current": "PASS"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://api.mcp.ai/p_detran_mg_ipva",
-      "name": "io.github.mcp-dir/detran_mg_ipva-mcp",
-      "current": "PASS"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://api.mcp.ai/p_sefaz_pe_certidao_debitos",
-      "name": "io.github.mcp-dir/sefaz_pe_certidao_debitos-mcp",
-      "current": "PASS"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://api.mcp.ai/p_cfm_cadastro",
-      "name": "io.github.mcp-dir/cfm_cadastro-mcp",
-      "current": "PASS"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://permdock.dev/mcp",
-      "name": "io.github.scaledockhq/permdock-docs",
-      "current": null
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://api.mcp.ai/p_registradores_info_conta",
-      "name": "io.github.mcp-dir/registradores_info_conta-mcp",
-      "current": "PASS"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://api.mcp.ai/p_dataprev_fap",
-      "name": "io.github.mcp-dir/dataprev_fap-mcp",
-      "current": "PASS"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://api.mcp.ai/p_ecrvsp_docs_imprimir_baixa",
-      "name": "io.github.mcp-dir/ecrvsp_docs_imprimir_baixa-mcp",
-      "current": "PASS"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://api.mcp.ai/p_psie",
-      "name": "io.github.mcp-dir/psie-mcp",
-      "current": "PASS"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://api.mcp.ai/p_librelink_business",
-      "name": "io.github.mcp-dir/librelink_business-mcp",
-      "current": "PASS"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://api.zettoai.com/mcp",
-      "name": "com.zettoai/zetto",
-      "current": "PARTIAL"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://www.sofiaferro.com.ar/api/mcp",
-      "name": "ar.com.sofiaferro/portfolio",
-      "current": "PASS"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://geo-mcp.vibeseo.dev/mcp",
-      "name": "dev.vibeseo/geo",
-      "current": "PARTIAL"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://mcp.vidocu.ai/",
-      "name": "ai.vidocu/vidocu",
-      "current": "PARTIAL"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://saasdossier.com/mcp",
-      "name": "com.saasdossier/evidence-ledger",
-      "current": "PASS"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://agent-observatory-sensor.nolimit-observatory.workers.dev/s/url-normalize/mcp",
-      "name": "io.github.sadri-dridi/url-normalize",
-      "current": "PASS"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://mcp.usesuperflow.ai/mcp",
-      "name": "ai.usesuperflow/superflow",
-      "current": "PARTIAL"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://www.agentcrush.xyz/api/mcp/v1",
-      "name": "io.github.kristof-sudo/agentcrush-app",
+      "target_url": "https://mcp.gogonka.com/mcp",
+      "name": "io.github.bystray/gonka-mcp-server",
       "current": "PASS"
     }
   ],

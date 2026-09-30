@@ -21,6 +21,7 @@
 - Free HTTP preflight: https://drkdm4jd-8767.uks1.devtunnels.ms/api/preflight
 - Paid certification tool: mcp_release_certify
 - Paid HTTP certification: https://drkdm4jd-8767.uks1.devtunnels.ms/api/certify
+- Receipt verification after settlement: https://drkdm4jd-8767.uks1.devtunnels.ms/api/receipts/{receipt_id}
 - API index: https://drkdm4jd-8767.uks1.devtunnels.ms/api/v1
 - OpenAPI: https://drkdm4jd-8767.uks1.devtunnels.ms/openapi.json
 
