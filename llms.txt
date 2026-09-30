@@ -39,6 +39,19 @@ The free preflight checks connection, MCP negotiation, tools/list and tool schem
 
 A2A callers can run the same preflight directly with an application/json data part containing target_url, or with explicit verification text containing exactly one HTTP(S) target URL.
 
+## CI and coding agents
+
+When a repository or coding agent already has a concrete MCP endpoint, use the public GitHub Action before deploy:
+
+- action: kaattaallaa-sketch/proofrail-mcp@main
+- required input: target_url
+- optional input: declared_protocol_version
+- optional input: fail_on_problem (default false)
+- outputs: connection, protocol_version, tools_count, schema_issues, response_json
+- payment: none
+
+The Action calls the same free /api/preflight endpoint and identifies the channel as proofrail-github-action/1.0.
+
 ## Paid operation
 
 Tool: mcp_release_certify
