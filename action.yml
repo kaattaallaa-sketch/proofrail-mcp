@@ -1,0 +1,53 @@
+name: ProofRail MCP Preflight
+description: Run a free, no-payment compatibility preflight on a public MCP endpoint before deploy or trust.
+author: ProofRail
+
+inputs:
+  target_url:
+    description: Public MCP Streamable HTTP endpoint to preflight.
+    required: true
+  declared_protocol_version:
+    description: Optional MCP protocol version the target claims to support.
+    required: false
+    default: ""
+  fail_on_problem:
+    description: Fail the step when connection is not ok or schema issues are found.
+    required: false
+    default: "false"
+  proofrail_preflight_url:
+    description: ProofRail preflight endpoint. Override only for testing or a future canonical endpoint.
+    required: false
+    default: https://drkdm4jd-8767.uks1.devtunnels.ms/api/preflight
+
+outputs:
+  connection:
+    description: Preflight connection result.
+    value: ${{ steps.preflight.outputs.connection }}
+  protocol_version:
+    description: Negotiated MCP protocol version.
+    value: ${{ steps.preflight.outputs.protocol_version }}
+  tools_count:
+    description: Number of tools returned by tools/list.
+    value: ${{ steps.preflight.outputs.tools_count }}
+  schema_issues:
+    description: Number of tool schema issues detected.
+    value: ${{ steps.preflight.outputs.schema_issues }}
+  response_json:
+    description: Compact JSON response from the free ProofRail preflight.
+    value: ${{ steps.preflight.outputs.response_json }}
+
+runs:
+  using: composite
+  steps:
+    - id: preflight
+      shell: bash
+      env:
+        PROOFRAIL_TARGET_URL: ${{ inputs.target_url }}
+        PROOFRAIL_DECLARED_PROTOCOL_VERSION: ${{ inputs.declared_protocol_version }}
+        PROOFRAIL_FAIL_ON_PROBLEM: ${{ inputs.fail_on_problem }}
+        PROOFRAIL_PREFLIGHT_URL: ${{ inputs.proofrail_preflight_url }}
+      run: python3 "$GITHUB_ACTION_PATH/action/proofrail_preflight.py"
+
+branding:
+  icon: shield
+  color: blue
