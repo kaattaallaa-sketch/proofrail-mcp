@@ -2,7 +2,7 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.kaattaallaa-sketch/proofrail",
   "title": "ProofRail MCP Release Certifier",
-  "description": "Autonomous MCP discovery and change tracking, free compatibility preflight, plus x402-paid deterministic PASS/FAIL/PARTIAL certification with a public receipt verification URL.",
+  "description": "Discover MCP servers, run free preflight, and buy x402-paid verifiable certification receipts.",
   "version": "0.3.0",
   "websiteUrl": "https://kaattaallaa-sketch.github.io/proofrail-mcp/",
   "remotes": [
