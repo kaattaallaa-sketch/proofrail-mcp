@@ -3,16 +3,16 @@
 <title>ProofRail MCP — autonomous discovery and paid certification</title>
 <meta name="description" content="Discover public MCP endpoints with ProofRail Radar, run a free preflight, and buy a deterministic x402 certification receipt for $0.10 on eip155:8453.">
 <meta name="robots" content="index,follow"><link rel="canonical" href="https://kaattaallaa-sketch.github.io/proofrail-mcp/"><link rel="alternate" type="text/plain" href="https://kaattaallaa-sketch.github.io/proofrail-mcp/llms.txt" title="LLM-readable documentation">
-</head><body><main><h1>ProofRail MCP</h1>
-<p><strong>Discover public MCP servers, verify compatibility, and buy deterministic evidence.</strong></p>
-<p>ProofRail maintains an autonomous Radar of public MCP endpoints, offers a free endpoint preflight, and sells full PASS/FAIL/PARTIAL certification receipts through x402.</p>
+<style>body{font:17px/1.6 system-ui,sans-serif;background:#f5f7fb;color:#182336;margin:0}main{max-width:960px;margin:48px auto;padding:32px;background:white;border-radius:16px}h1{font-size:2.4rem;line-height:1.15}a{color:#174bd1}code,pre{background:#edf1f7;border-radius:5px;padding:3px 6px}pre{padding:18px;overflow:auto}table{border-collapse:collapse;width:100%}td,th{padding:12px;text-align:left;border-bottom:1px solid #dce2ed}@media(max-width:650px){main{margin:0;padding:20px;border-radius:0}}</style></head><body><main><h1>ProofRail MCP</h1>
+<p><strong>Will your MCP integration survive the next deployment?</strong></p>
+<p>Find public MCP servers for free. Pay for a check against the tools your integration actually requires, plus schema-change evidence you can compare before every release.</p><p><a href="./quickstart/">Start with your endpoint</a> Â· <a href="./radar/">Browse MCP servers</a></p>
 <h2>Discover MCP servers</h2>
 <p><a href="https://kaattaallaa-sketch.github.io/proofrail-mcp/radar/">Browse the stable MCP Radar catalog</a> · <a href="https://kaattaallaa-sketch.github.io/proofrail-mcp/radar/catalog.json">machine-readable catalog</a></p>
 <p>Agents can call <code>find_mcp_servers</code> on <a href="https://drkdm4jd-8767.uks1.devtunnels.ms/mcp">ProofRail MCP</a> for task-oriented discovery.</p>
 <h2>Verify before paying</h2>
-<p>Free HTTP preflight: <a href="https://drkdm4jd-8767.uks1.devtunnels.ms/api/preflight">https://drkdm4jd-8767.uks1.devtunnels.ms/api/preflight</a><br>MCP tool: <code>mcp_release_preflight</code></p>
+<p>Free HTTP preflight: <code>POST https://drkdm4jd-8767.uks1.devtunnels.ms/api/preflight</code><br>MCP tool: <code>mcp_release_preflight</code></p>
 <h2>Buy a certification receipt</h2>
-<p><strong>$0.10</strong> via x402 on <code>eip155:8453</code>. Paid tool: <code>mcp_release_certify</code>. HTTP: <a href="https://drkdm4jd-8767.uks1.devtunnels.ms/api/certify">https://drkdm4jd-8767.uks1.devtunnels.ms/api/certify</a>.</p>
+<p><strong>$0.10</strong> via x402 on <code>eip155:8453</code>. Paid tool: <code>mcp_release_certify</code>. HTTP: <code>POST https://drkdm4jd-8767.uks1.devtunnels.ms/api/certify</code>. <a href="./quickstart/">Purchase instructions and example</a>.</p>
 <p>The paid result is PASS, FAIL, or PARTIAL with a deterministic evidence receipt and a public verification URL that can be shared with another agent.</p>
 <h2>Agent interfaces</h2><ul>
 <li><a href="https://drkdm4jd-8767.uks1.devtunnels.ms/mcp">MCP Streamable HTTP</a></li>

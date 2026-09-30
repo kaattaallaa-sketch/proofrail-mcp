@@ -4,6 +4,19 @@
 
 Use ProofRail before deploying, upgrading, or trusting an MCP server. It checks protocol negotiation, `tools/list`, tool schemas, Streamable HTTP transport, authentication classification, and optional server-configured safe fixtures. It returns **PASS**, **FAIL**, or **PARTIAL** with deterministic evidence.
 
+## Paid deployment contracts (0.4.0)
+
+**Check the tools your integration depends on for $0.10 USDC on Base mainnet.**
+
+- Set `required_tools` to block missing dependencies.
+- Save `certification.evidence.contract_baseline` and send it as `baseline_schema_hashes` before the next deployment.
+- Receive ALLOW / BLOCK / REVIEW, schema fingerprints and a payment-linked verifiable receipt.
+- A schema change requires review; it does not prove a breaking change.
+- Discovery and compatibility preflight remain free.
+
+[Purchase guide, request builder and downloadable buyer](https://kaattaallaa-sketch.github.io/proofrail-mcp/quickstart/).
+The buyer defaults to a free quote; `--pay` explicitly authorizes one purchase.
+
 ## Public landing page
 
 https://kaattaallaa-sketch.github.io/proofrail-mcp/
@@ -70,6 +83,8 @@ This action uses the free no-payment preflight. The x402-paid `mcp_release_certi
 ProofRail is distributed through:
 
 - Official MCP Registry: `io.github.kaattaallaa-sketch/proofrail`
+- x402scan (paid HTTP resource registered)
+- 402 Index (verified provider listing)
 - PayAI Bazaar
 - Ultravioleta DAO Bazaar aggregation
 - Wellknown verified MCP record: https://wellknown.network/agents/proofrail

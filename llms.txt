@@ -36,7 +36,10 @@
 
 1. Discover candidates with find_mcp_servers or the Radar.
 2. Run mcp_release_preflight or POST /api/preflight for free.
-3. Buy mcp_release_certify or POST /api/certify through x402.
-4. Receive PASS, FAIL, or PARTIAL with a deterministic evidence receipt.
+3. Buy mcp_release_certify or POST /api/certify through x402 with required_tools (1â€“100 names) and optionally baseline_schema_hashes from a previous paid response.
+4. Receive PASS, FAIL, or PARTIAL, evidence.deployment_decision (ALLOW/BLOCK/REVIEW), per-tool fingerprints, evidence.contract_baseline, and a deterministic evidence receipt. Save the baseline and send it as baseline_schema_hashes before the next deployment. Schema drift requires review and does not prove a breaking change.
+
+Purchase guide: https://kaattaallaa-sketch.github.io/proofrail-mcp/quickstart/
+Machine-readable purchase guide: https://drkdm4jd-8767.uks1.devtunnels.ms/api/purchase
 
 Each stable Radar item links to the exact live certification offer for its target_url.
