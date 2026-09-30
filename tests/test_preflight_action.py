@@ -31,5 +31,36 @@ class ReleaseGateTests(unittest.TestCase):
     def test_advisory_mode_reports_without_blocking(self):
         self.assertEqual(run_action({"outcome":"FAIL","connection":"ok","tools_count":1,"schema_issues":2},enforce=False),0)
 
+    def test_real_github_action_identifies_repository_and_run(self):
+        captured = {}
+        def fake_urlopen(request, timeout=0):
+            captured["user_agent"] = request.get_header("User-agent")
+            return io.BytesIO(json.dumps({"preflight": {"outcome":"PASS","connection":"ok","tools_count":1,"schema_issues":0}}).encode())
+        env = {
+            "PROOFRAIL_TARGET_URL": "https://example.com/mcp",
+            "PROOFRAIL_DECLARED_PROTOCOL_VERSION": "",
+            "PROOFRAIL_FAIL_ON_PROBLEM": "true",
+            "GITHUB_ACTIONS": "true",
+            "GITHUB_REPOSITORY": "owner/repo",
+            "GITHUB_RUN_ID": "12345",
+        }
+        with patch.dict(os.environ, env, clear=True), patch("urllib.request.urlopen", side_effect=fake_urlopen), contextlib.redirect_stdout(io.StringIO()), contextlib.redirect_stderr(io.StringIO()):
+            runpy.run_path(str(SCRIPT), run_name="__main__")
+        self.assertEqual(captured["user_agent"], "github-actions-proofrail/1.1 repo=owner/repo run=12345")
+
+    def test_non_github_execution_is_marked_internal(self):
+        captured = {}
+        def fake_urlopen(request, timeout=0):
+            captured["user_agent"] = request.get_header("User-agent")
+            return io.BytesIO(json.dumps({"preflight": {"outcome":"PASS","connection":"ok","tools_count":1,"schema_issues":0}}).encode())
+        env = {
+            "PROOFRAIL_TARGET_URL": "https://example.com/mcp",
+            "PROOFRAIL_DECLARED_PROTOCOL_VERSION": "",
+            "PROOFRAIL_FAIL_ON_PROBLEM": "true",
+        }
+        with patch.dict(os.environ, env, clear=True), patch("urllib.request.urlopen", side_effect=fake_urlopen), contextlib.redirect_stdout(io.StringIO()), contextlib.redirect_stderr(io.StringIO()):
+            runpy.run_path(str(SCRIPT), run_name="__main__")
+        self.assertEqual(captured["user_agent"], "proofrail-internal-action-test/1.1")
+
 if __name__ == "__main__":
     unittest.main()

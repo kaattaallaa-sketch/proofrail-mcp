@@ -16,12 +16,23 @@ payload = {"target_url": target_url, "check_profile": "basic"}
 if declared:
     payload["declared_protocol_version"] = declared
 
+github_repository = os.environ.get("GITHUB_REPOSITORY", "").strip()
+github_run_id = os.environ.get("GITHUB_RUN_ID", "").strip()
+is_github_actions = os.environ.get("GITHUB_ACTIONS", "").lower() == "true"
+if is_github_actions and github_repository and github_run_id:
+    user_agent = (
+        f"github-actions-proofrail/1.1 repo={github_repository} "
+        f"run={github_run_id}"
+    )
+else:
+    user_agent = "proofrail-internal-action-test/1.1"
+
 request = urllib.request.Request(
     endpoint,
     data=json.dumps(payload).encode("utf-8"),
     headers={
         "Content-Type": "application/json",
-        "User-Agent": "github-actions-proofrail/1.0",
+        "User-Agent": user_agent,
     },
     method="POST",
 )
