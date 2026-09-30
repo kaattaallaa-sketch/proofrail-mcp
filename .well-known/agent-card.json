@@ -79,7 +79,7 @@
     {
       "id": "proofrail_certification_access",
       "name": "ProofRail certification access",
-      "description": "Run a free preflight immediately when a structured JSON data part contains target_url; otherwise return canonical MCP/HTTP access details for optional x402-paid full certification.",
+      "description": "Run a free preflight immediately from structured JSON with target_url, or from explicit verification text containing exactly one HTTP(S) target URL; otherwise return canonical MCP/HTTP access details for optional x402-paid full certification.",
       "tags": [
         "mcp",
         "x402",
