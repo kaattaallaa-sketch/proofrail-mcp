@@ -1,0 +1,14 @@
+name: Test preflight Action
+on:
+  pull_request:
+    paths: ["action/**", "action.yml", "tests/**", ".github/workflows/test-action.yml"]
+  push:
+    paths: ["action/**", "action.yml", "tests/**", ".github/workflows/test-action.yml"]
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - run: python3 -m unittest discover -s tests

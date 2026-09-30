@@ -40,8 +40,22 @@ except Exception as exc:
 preflight = data.get("preflight", {})
 connection = str(preflight.get("connection", "unknown"))
 protocol_version = str(preflight.get("negotiated_protocol_version") or "")
-tools_count = int(preflight.get("tools_count", 0) or 0)
-schema_issues = int(preflight.get("schema_issues", 0) or 0)
+tools_count = preflight.get("tools_count")
+schema_issues = preflight.get("schema_issues")
+evidence_complete = (
+    type(tools_count) is int and tools_count >= 0
+    and type(schema_issues) is int and schema_issues >= 0
+)
+protocol_mismatch = bool(declared and protocol_version != declared)
+outcome = preflight.get("outcome")
+problem = (
+    connection != "ok"
+    or not evidence_complete
+    or (evidence_complete and schema_issues > 0)
+    or protocol_mismatch
+    or preflight.get("protocol_compatible") is False
+    or (outcome is not None and outcome != "PASS")
+)
 compact = json.dumps(data, separators=(",", ":"))
 
 outputs = {
@@ -63,6 +77,6 @@ print(
     f"schema_issues={schema_issues}"
 )
 
-if fail_on_problem and (connection != "ok" or schema_issues > 0):
+if fail_on_problem and problem:
     print("Preflight problem detected; failing because fail_on_problem=true.", file=sys.stderr)
     raise SystemExit(1)

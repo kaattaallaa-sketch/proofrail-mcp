@@ -22,11 +22,11 @@ https://kaattaallaa-sketch.github.io/proofrail-mcp/
 
 ## MCP tools
 
-- `health` — free service health
-- `proofrail_info` — free capability description
-- `mcp_release_preflight` — free endpoint preflight; no payment
-- `quote_certification` — free network/price quote
-- `mcp_release_certify` — x402-paid compatibility certification
+- `health` â€” free service health
+- `proofrail_info` â€” free capability description
+- `mcp_release_preflight` â€” free endpoint preflight; no payment
+- `quote_certification` â€” free network/price quote
+- `mcp_release_certify` â€” x402-paid compatibility certification
 
 ## GitHub Actions: preflight before deploy
 
@@ -42,6 +42,12 @@ Coding agents and CI jobs can run the free preflight when they already have a co
 ```
 
 Outputs: `connection`, `protocol_version`, `tools_count`, `schema_issues`, and `response_json`.
+
+With `fail_on_problem: "true"`, the Action blocks on connection problems, schema issues, incomplete evidence, non-PASS verdicts, or a mismatch with `declared_protocol_version`. The protocol comparison also works against earlier preflight responses. Without enforcement, it is advisory.
+
+The endpoint must already be reachable (for example, a staging deployment) before this check runs. A manifest URL alone does not test code that has not been deployed.
+
+Scope: this is a basic external endpoint check using a client that supports negotiated MCP revisions through 2025-11-25. It is not full MCP conformance, a security audit, or a guarantee that every MCP client will accept the server. The official [MCP conformance framework](https://github.com/modelcontextprotocol/conformance) is available for broader protocol testing.
 
 This action uses the free no-payment preflight. The x402-paid `mcp_release_certify` operation remains a separate optional step for a deterministic PASS/FAIL/PARTIAL evidence receipt.
 

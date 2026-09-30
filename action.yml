@@ -11,7 +11,7 @@ inputs:
     required: false
     default: ""
   fail_on_problem:
-    description: Fail the step when connection is not ok or schema issues are found.
+    description: Fail the step on connection/schema problems, declared protocol mismatch, or incomplete evidence.
     required: false
     default: "false"
   proofrail_preflight_url:
