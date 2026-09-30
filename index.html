@@ -1,72 +1,25 @@
 <!doctype html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>ProofRail MCP — server verification & compatibility preflight</title>
-<meta name="description" content="ProofRail offers a free MCP endpoint preflight before deployment, then optional x402-paid PASS/FAIL/PARTIAL evidence certification.">
-<meta name="robots" content="index,follow">
-<link rel="canonical" href="https://kaattaallaa-sketch.github.io/proofrail-mcp/">
-<link rel="alternate" type="text/plain" href="https://kaattaallaa-sketch.github.io/proofrail-mcp/llms.txt" title="LLM-readable documentation">\n<link rel="alternate" type="application/a2a+json" href="https://kaattaallaa-sketch.github.io/proofrail-mcp/.well-known/agent-card.json" title="A2A Agent Card">
-<script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebAPI","name":"ProofRail MCP","description":"MCP server verification, testing, evaluation and compatibility preflight before deployment.","url":"https://kaattaallaa-sketch.github.io/proofrail-mcp/","documentation":"https://kaattaallaa-sketch.github.io/proofrail-mcp/llms.txt","serviceType":"MCP server verification","termsOfService":"Gate 1 uses Base Sepolia test-USDC; not production revenue.","potentialAction":{"@type":"UseAction","target":["https://drkdm4jd-8767.uks1.devtunnels.ms/api/preflight","https://drkdm4jd-8767.uks1.devtunnels.ms/mcp","https://drkdm4jd-8767.uks1.devtunnels.ms/api/certify"]}}
-</script>
-<style>
-body{font-family:system-ui,-apple-system,sans-serif;max-width:760px;margin:64px auto;padding:0 22px;line-height:1.55;color:#161616}
-h1{font-size:2.5rem;margin-bottom:.25rem}h2{margin-top:2rem}code{background:#f3f3f3;padding:.15rem .35rem;border-radius:4px}
-a{color:#0759c7}.badge{display:inline-block;padding:.25rem .55rem;border:1px solid #bbb;border-radius:999px;margin-right:.35rem;font-size:.85rem}
-.note{padding:1rem;background:#f7f7f7;border-left:4px solid #555}
-</style>
-</head>
-<body>
-<h1>ProofRail MCP</h1>
-<p><strong>Verify an MCP server before you deploy, upgrade, or trust it.</strong></p>
-<p>
-<span class="badge">MCP</span><span class="badge">A2A</span><span class="badge">x402</span><span class="badge">OpenAPI</span>
-</p>
-<p>ProofRail checks MCP protocol negotiation, <code>tools/list</code>, tool schemas, Streamable HTTP transport and authentication classification. It returns <strong>PASS</strong>, <strong>FAIL</strong> or <strong>PARTIAL</strong> with a deterministic evidence receipt.</p>
-
-<h2>Start free</h2>
-<p>Run a no-payment MCP endpoint preflight first. It checks reachability, protocol negotiation, tool count and schema issues.</p>
-<ul>
-<li>HTTP preflight: <a href="https://drkdm4jd-8767.uks1.devtunnels.ms/api/preflight">POST /api/preflight</a></li>
-<li>MCP tool: <code>mcp_release_preflight</code></li>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ProofRail MCP — autonomous discovery and paid certification</title>
+<meta name="description" content="Discover public MCP endpoints with ProofRail Radar, run a free preflight, and buy a deterministic x402 certification receipt for $0.10 on eip155:8453.">
+<meta name="robots" content="index,follow"><link rel="canonical" href="https://kaattaallaa-sketch.github.io/proofrail-mcp/"><link rel="alternate" type="text/plain" href="https://kaattaallaa-sketch.github.io/proofrail-mcp/llms.txt" title="LLM-readable documentation">
+</head><body><main><h1>ProofRail MCP</h1>
+<p><strong>Discover public MCP servers, verify compatibility, and buy deterministic evidence.</strong></p>
+<p>ProofRail maintains an autonomous Radar of public MCP endpoints, offers a free endpoint preflight, and sells full PASS/FAIL/PARTIAL certification receipts through x402.</p>
+<h2>Discover MCP servers</h2>
+<p><a href="https://kaattaallaa-sketch.github.io/proofrail-mcp/radar/">Browse the stable MCP Radar catalog</a> · <a href="https://kaattaallaa-sketch.github.io/proofrail-mcp/radar/catalog.json">machine-readable catalog</a></p>
+<p>Agents can call <code>find_mcp_servers</code> on <a href="https://drkdm4jd-8767.uks1.devtunnels.ms/mcp">ProofRail MCP</a> for task-oriented discovery.</p>
+<h2>Verify before paying</h2>
+<p>Free HTTP preflight: <a href="https://drkdm4jd-8767.uks1.devtunnels.ms/api/preflight">https://drkdm4jd-8767.uks1.devtunnels.ms/api/preflight</a><br>MCP tool: <code>mcp_release_preflight</code></p>
+<h2>Buy a certification receipt</h2>
+<p><strong>$0.10</strong> via x402 on <code>eip155:8453</code>. Paid tool: <code>mcp_release_certify</code>. HTTP: <a href="https://drkdm4jd-8767.uks1.devtunnels.ms/api/certify">https://drkdm4jd-8767.uks1.devtunnels.ms/api/certify</a>.</p>
+<p>The paid result is PASS, FAIL, or PARTIAL with a deterministic evidence receipt.</p>
+<h2>Agent interfaces</h2><ul>
+<li><a href="https://drkdm4jd-8767.uks1.devtunnels.ms/mcp">MCP Streamable HTTP</a></li>
+<li><a href="https://kaattaallaa-sketch.github.io/proofrail-mcp/llms.txt">LLM-readable instructions</a></li>
+<li><a href="https://drkdm4jd-8767.uks1.devtunnels.ms/openapi.json">OpenAPI</a></li>
+<li><a href="https://kaattaallaa-sketch.github.io/proofrail-mcp/.well-known/agent-card.json">Stable A2A Agent Card</a></li>
+<li><a href="https://kaattaallaa-sketch.github.io/proofrail-mcp/.well-known/x402.json">Stable x402 discovery</a></li>
 </ul>
-
-<h2>For agents</h2>
-<ul>
-<li>MCP endpoint: <a href="https://drkdm4jd-8767.uks1.devtunnels.ms/mcp">https://drkdm4jd-8767.uks1.devtunnels.ms/mcp</a></li>
-<li>Stable A2A Agent Card: <a href="https://kaattaallaa-sketch.github.io/proofrail-mcp/.well-known/agent-card.json">Agent Card</a></li>\n<li>Live A2A endpoint card: <a href="https://drkdm4jd-8767.uks1.devtunnels.ms/.well-known/agent-card.json">Dev Tunnel Agent Card</a></li>
-<li>HTTP API: <a href="https://drkdm4jd-8767.uks1.devtunnels.ms/api/v1">API index</a></li>
-<li>OpenAPI: <a href="https://drkdm4jd-8767.uks1.devtunnels.ms/openapi.json">openapi.json</a></li>
-<li>x402 discovery: <a href="https://drkdm4jd-8767.uks1.devtunnels.ms/.well-known/x402">/.well-known/x402</a></li>
-<li>ARD catalog: <a href="https://drkdm4jd-8767.uks1.devtunnels.ms/.well-known/ard.json">/.well-known/ard.json</a></li>
-<li>LLM instructions: <a href="https://kaattaallaa-sketch.github.io/proofrail-mcp/llms.txt">llms.txt</a></li>
-</ul>
-
-<h2>Use in CI or coding agents</h2>
-<p>If your repository already has an MCP URL, run the free preflight before deploy:</p>
-<pre><code>- uses: kaattaallaa-sketch/proofrail-mcp@v1
-  with:
-    target_url: ${{ vars.MCP_URL }}</code></pre>
-<p>The Action returns connection, negotiated protocol, tool count and schema issue count. No payment is required.</p>
-
-<h2>MCP tools</h2>
-<ul>
-<li><code>health</code> — free service health</li>
-<li><code>proofrail_info</code> — free capability description</li>
-<li><code>mcp_release_preflight</code> — free endpoint check; no payment</li>
-<li><code>quote_certification</code> — free network/price quote</li>
-<li><code>mcp_release_certify</code> — x402-paid release certification</li>
-</ul>
-
-<h2>Discovery</h2>
-<p>ProofRail is published through the official MCP Registry namespace <code>io.github.kaattaallaa-sketch/proofrail</code>, PayAI Bazaar, Ultravioleta DAO Bazaar aggregation, and verified MCP/A2A records on Wellknown.</p>
-<ul>
-<li><a href="https://wellknown.network/agents/proofrail">Verified Wellknown MCP record</a></li>
-<li><a href="https://wellknown.network/agents/proofrail-access-agent">Verified Wellknown A2A record</a></li>\n<li><a href="https://www.a2a-registry.org/agent/io.github.proofrail_access_agent">Global A2A Registry record</a></li>\n<li><a href="https://allagents.app/agent/proofrail-mcp-release-certifier">AllAgents record</a></li>
-</ul>
-
-<div class="note"><strong>Gate 1:</strong> ProofRail currently charges <code>$0.001</code> in Base Sepolia test-USDC. These are testnet validation payments, not revenue. Base mainnet remains disabled.</div>
-</body>
-</html>
+<p><small>Radar observations are point-in-time compatibility observations, not security audits or uptime guarantees.</small></p>
+</main></body></html>

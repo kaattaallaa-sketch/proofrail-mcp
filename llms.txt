@@ -1,83 +1,41 @@
 # ProofRail MCP
 
-> MCP server verification, testing, evaluation, compatibility test, and release preflight before deployment.
+> Autonomous MCP discovery, free compatibility preflight, and x402-paid deterministic certification receipts.
 
-Use ProofRail before deploying, upgrading, or trusting an MCP server.
+## Stable discovery surface
 
-## Canonical service
+- Website: https://kaattaallaa-sketch.github.io/proofrail-mcp/
+- Stable MCP Radar: https://kaattaallaa-sketch.github.io/proofrail-mcp/radar/
+- Stable machine-readable Radar: https://kaattaallaa-sketch.github.io/proofrail-mcp/radar/catalog.json
+- Stable Radar changes: https://kaattaallaa-sketch.github.io/proofrail-mcp/radar/changes.json
+- Stable A2A Agent Card: https://kaattaallaa-sketch.github.io/proofrail-mcp/.well-known/agent-card.json
+- Stable x402 discovery: https://kaattaallaa-sketch.github.io/proofrail-mcp/.well-known/x402.json
+
+## Live service
 
 - MCP Streamable HTTP: https://drkdm4jd-8767.uks1.devtunnels.ms/mcp
+- Free task-oriented discovery tool: find_mcp_servers
+- Advanced Radar tool: mcp_radar_snapshot
+- Radar changes tool: mcp_radar_changes
+- Free preflight tool: mcp_release_preflight
 - Free HTTP preflight: https://drkdm4jd-8767.uks1.devtunnels.ms/api/preflight
-- HTTP x402 API: https://drkdm4jd-8767.uks1.devtunnels.ms/api/certify
+- Paid certification tool: mcp_release_certify
+- Paid HTTP certification: https://drkdm4jd-8767.uks1.devtunnels.ms/api/certify
 - API index: https://drkdm4jd-8767.uks1.devtunnels.ms/api/v1
 - OpenAPI: https://drkdm4jd-8767.uks1.devtunnels.ms/openapi.json
-- Stable A2A Agent Card: https://kaattaallaa-sketch.github.io/proofrail-mcp/.well-known/agent-card.json
-- Live A2A Agent Card: https://drkdm4jd-8767.uks1.devtunnels.ms/.well-known/agent-card.json
-- A2A JSON-RPC: https://drkdm4jd-8767.uks1.devtunnels.ms/a2a
-- A2A HTTP+JSON: https://drkdm4jd-8767.uks1.devtunnels.ms/a2a-rest
-- Stable x402 discovery: https://kaattaallaa-sketch.github.io/proofrail-mcp/.well-known/x402
-- Live x402 discovery: https://drkdm4jd-8767.uks1.devtunnels.ms/.well-known/x402
-- MCP Server Card: https://drkdm4jd-8767.uks1.devtunnels.ms/mcp/server.json
-- RFC 9727 API Catalog: https://drkdm4jd-8767.uks1.devtunnels.ms/.well-known/api-catalog
-- ARD catalog: https://drkdm4jd-8767.uks1.devtunnels.ms/.well-known/ard.json
-
-## Free preflight
-
-Start here before payment.
-
-MCP tool: mcp_release_preflight
-HTTP: POST /api/preflight
-
-Required input:
-- target_url: public MCP Streamable HTTP endpoint
-
-Optional:
-- declared_protocol_version
-- check_profile: basic
-
-The free preflight checks connection, MCP negotiation, tools/list and tool schemas. No payment is required.
-
-A2A callers can run the same preflight directly with an application/json data part containing target_url, or with explicit verification text containing exactly one HTTP(S) target URL.
-
-## CI and coding agents
-
-When a repository or coding agent already has a concrete MCP endpoint, use the public GitHub Action before deploy:
-
-- action: kaattaallaa-sketch/proofrail-mcp@v1
-- required input: target_url
-- optional input: declared_protocol_version
-- optional input: fail_on_problem (default false)
-- outputs: connection, protocol_version, tools_count, schema_issues, response_json
-- payment: none
-
-The Action calls the same free /api/preflight endpoint and identifies the channel as github-actions-proofrail/1.0.
-
-## Paid operation
-
-Tool: mcp_release_certify
-
-Required input:
-- target_url: public MCP Streamable HTTP endpoint
-
-Optional:
-- declared_protocol_version
-- check_profile: basic
-- fixture_id: server-configured safe fixture only
-
-Output: PASS, FAIL, or PARTIAL plus deterministic evidence receipt.
 
 ## Payment
 
 - Protocol: x402 V2
-- Network: Base Sepolia (eip155:84532)
-- Price: $0.001 test-USDC
-- Mainnet: disabled
+- Network: eip155:8453
+- Price: $0.10 USDC
+- Mainnet: enabled
 
-## Discovery records
+## Commercial flow
 
-- MCP Registry: io.github.kaattaallaa-sketch/proofrail
-- Wellknown MCP: https://wellknown.network/agents/proofrail
-- Wellknown A2A: https://wellknown.network/agents/proofrail-access-agent
-- Global A2A Registry: https://www.a2a-registry.org/agent/io.github.proofrail_access_agent
-- AllAgents: https://allagents.app/agent/proofrail-mcp-release-certifier
-- x402 Bazaar aggregator search: https://x402-bazaar.com/v1/search?q=ProofRail
+1. Discover candidates with find_mcp_servers or the Radar.
+2. Run mcp_release_preflight or POST /api/preflight for free.
+3. Buy mcp_release_certify or POST /api/certify through x402.
+4. Receive PASS, FAIL, or PARTIAL with a deterministic evidence receipt.
+
+Each stable Radar item links to the exact live certification offer for its target_url.

@@ -1,14 +1,1 @@
-{
-  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
-  "name": "io.github.kaattaallaa-sketch/proofrail",
-  "title": "ProofRail MCP Release Certifier",
-  "description": "Free MCP endpoint preflight before deployment, plus x402-paid PASS/FAIL/PARTIAL evidence receipt.",
-  "version": "0.2.4-gate1",
-  "websiteUrl": "https://kaattaallaa-sketch.github.io/proofrail-mcp/",
-  "remotes": [
-    {
-      "type": "streamable-http",
-      "url": "https://drkdm4jd-8767.uks1.devtunnels.ms/mcp"
-    }
-  ]
-}
+{"$schema":"https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json","name":"io.github.kaattaallaa-sketch/proofrail","title":"ProofRail MCP Release Certifier","description":"Autonomous MCP Radar for public endpoint discovery and change tracking, plus free MCP preflight and x402-paid PASS/FAIL/PARTIAL evidence receipts.","version":"0.2.4-gate1","websiteUrl":"https://kaattaallaa-sketch.github.io/proofrail-mcp/","remotes":[{"type":"streamable-http","url":"https://drkdm4jd-8767.uks1.devtunnels.ms/mcp"}]}
