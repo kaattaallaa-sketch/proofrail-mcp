@@ -10,6 +10,7 @@ https://kaattaallaa-sketch.github.io/proofrail-mcp/
 
 ## Connect
 
+- Free HTTP preflight: `POST https://drkdm4jd-8767.uks1.devtunnels.ms/api/preflight`
 - MCP Streamable HTTP: `https://drkdm4jd-8767.uks1.devtunnels.ms/mcp`
 - A2A Agent Card: `https://drkdm4jd-8767.uks1.devtunnels.ms/.well-known/agent-card.json`
 - A2A JSON-RPC: `https://drkdm4jd-8767.uks1.devtunnels.ms/a2a`
@@ -23,6 +24,7 @@ https://kaattaallaa-sketch.github.io/proofrail-mcp/
 
 - `health` — free service health
 - `proofrail_info` — free capability description
+- `mcp_release_preflight` — free endpoint preflight; no payment
 - `quote_certification` — free network/price quote
 - `mcp_release_certify` — x402-paid compatibility certification
 
