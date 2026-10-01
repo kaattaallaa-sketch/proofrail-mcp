@@ -1,1294 +1,1376 @@
 {
   "schema_version": 1,
   "source": "multi_source_incremental",
-  "previous_completed_at": "2026-09-30T14:32:53.922Z",
-  "current_completed_at": "2026-09-30T18:38:34.445Z",
+  "previous_completed_at": "2026-09-30T18:38:34.445Z",
+  "current_completed_at": "2026-10-01T00:38:17.770Z",
   "summary": {
-    "total": 213,
+    "total": 227,
     "by_type": {
-      "PROTOCOL_CHANGED": 1,
-      "NEW": 212
+      "NEW": 227
     }
   },
   "changes": [
     {
-      "type": "PROTOCOL_CHANGED",
-      "target_url": "https://docs.bithuman.ai/docs-mcp",
-      "name": "ai.bithuman/docs",
-      "previous": "2025-06-18",
-      "current": "2025-11-25"
-    },
-    {
       "type": "NEW",
-      "target_url": "https://mcp.paperlantern.ai/chat/mcp",
-      "name": "ai.paperlantern/code",
+      "target_url": "https://mcp.shipstar.ai/mcp",
+      "name": "ai.shipstar/mcp",
       "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://search-mcp.parallel.ai/mcp",
-      "name": "ai.parallel/search-mcp",
-      "current": "PARTIAL"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://task-mcp.parallel.ai/mcp",
-      "name": "ai.parallel/task-mcp",
-      "current": "PARTIAL"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://parceled.ai/api/mcp",
-      "name": "ai.parceled/mcp",
-      "current": "PARTIAL"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://www.partnerwith.ai/mcp",
-      "name": "ai.partnerwith/eous",
+      "target_url": "https://shorti.ai/mcp",
+      "name": "ai.shorti/shorti",
       "current": "PASS"
     },
     {
       "type": "NEW",
-      "target_url": "https://partsgraph.ai/api/mcp",
-      "name": "ai.partsgraph/catalog",
+      "target_url": "https://shotclick.ai/api/mcp",
+      "name": "ai.shotclick/screenwriting",
+      "current": "PARTIAL"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://api.shreddy.ai/mcp",
+      "name": "ai.shreddy/shreddy",
       "current": "PASS"
     },
     {
       "type": "NEW",
-      "target_url": "https://api.patentdata.ai/mcp",
-      "name": "ai.patentdata/patent-data",
-      "current": "PARTIAL"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://mcp.pathbound.ai/mcp",
-      "name": "ai.pathbound/pathbound",
-      "current": "PARTIAL"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://managed.payments.ai/api/mcp",
-      "name": "ai.payments.managed/payments-ai-mcp",
-      "current": "PARTIAL"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://chat.pdfassistant.ai/mcp",
-      "name": "ai.pdfassistant/pdfassistant",
-      "current": "PARTIAL"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://api.penholder.ai/mcp",
-      "name": "ai.penholder/penholder",
-      "current": "PARTIAL"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://www.peregrini.ai/mcp",
-      "name": "ai.peregrini/common-pleas",
+      "target_url": "https://mcp.shumi.ai/mcp",
+      "name": "ai.shumi/mcp",
       "current": "PASS"
     },
     {
       "type": "NEW",
-      "target_url": "https://proxy.perfectmemory.ai/api/mcp",
-      "name": "ai.perfectmemory/perfect-memory",
+      "target_url": "https://foodlog.sig.ai/api/mcp",
+      "name": "ai.sig.foodlog/food-logger",
       "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://app.perfloop.ai/mcp",
-      "name": "ai.perfloop/perfloop",
-      "current": "PARTIAL"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://app.perlucem.ai/api/v1/mcp",
-      "name": "ai.perlucem/tbpi",
-      "current": "PARTIAL"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://petraport.ai/api/agent-commerce/v1/mcp",
-      "name": "ai.petraport/agent-commerce",
-      "current": "PARTIAL"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://phano.ai/api/v1/mcp",
-      "name": "ai.phano/intelligence",
-      "current": "PARTIAL"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://liminality.physea.ai/mcp",
-      "name": "ai.physea/liminality",
-      "current": "PARTIAL"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://api.picsha.ai/v1/mcp",
-      "name": "ai.picsha/picsha",
-      "current": "PARTIAL"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://api.pictomancer.ai/mcp",
-      "name": "ai.pictomancer/image-processing",
+      "target_url": "https://mcp.signal8.ai/mcp",
+      "name": "ai.signal8/mcp",
       "current": "PASS"
     },
     {
       "type": "NEW",
-      "target_url": "https://mcp.pigeonrelay.ai/mcp",
-      "name": "ai.pigeonrelay/pigeonrelay",
-      "current": "PARTIAL"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://api.pimea.ai/mcp/",
-      "name": "ai.pimea/pimea",
-      "current": "PARTIAL"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://mcp.pipe2.ai/mcp",
-      "name": "ai.pipe2/mcp",
+      "target_url": "https://signalharness.ai/api/agent/services/mcp",
+      "name": "ai.signalharness/mcp",
       "current": "PASS"
     },
     {
       "type": "NEW",
-      "target_url": "https://mcp.pipeledger.ai/mcp",
-      "name": "ai.pipeledger/pipeledger",
+      "target_url": "https://mcp.signalnodus.ai/",
+      "name": "ai.signalnodus/sec-filings",
       "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://pixeldojo.ai/mcp",
-      "name": "ai.pixeldojo/mcp",
+      "target_url": "https://simplepages.ai/api/mcp",
+      "name": "ai.simplepages/simplepages",
       "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://mcp.playdrop.ai/mcp",
-      "name": "ai.playdrop/mcp",
+      "target_url": "https://api.simpleserve.ai/mcp",
+      "name": "ai.simpleserve/mcp",
       "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://mcp.plcs.ai/mcp",
-      "name": "ai.plcs/plcs-ai",
+      "target_url": "https://app.simplio3d.ai/mcp",
+      "name": "ai.simplio3d/platform",
       "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://plero.ai/api/mcp",
-      "name": "ai.plero/plero",
+      "target_url": "https://my.simsense.ai/mcp",
+      "name": "ai.simsense/mcp",
       "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://plith.ai/api/mcp",
-      "name": "ai.plith/plith",
-      "current": "PASS"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://api.plori.ai/mcp",
-      "name": "ai.plori/plori",
-      "current": "PARTIAL"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://plyto.ai/api/mcp",
-      "name": "ai.plyto/crm",
-      "current": "PARTIAL"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://pocketdrives.ai/mcp",
-      "name": "ai.pocketdrives/pocket-drives",
-      "current": "PASS"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://popdot.ai/api/mcp",
-      "name": "ai.popdot/popdot-mcp",
-      "current": "PASS"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://mcp.portablecontext.ai/mcp",
-      "name": "ai.portablecontext/pcd",
-      "current": "PARTIAL"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://porteur.ai/mcp",
-      "name": "ai.porteur/porteur",
-      "current": "PARTIAL"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://mcp.posteverywhere.ai/mcp",
-      "name": "ai.posteverywhere/mcp",
-      "current": "PARTIAL"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://srvr.postey.ai/mcp",
-      "name": "ai.postey/postey",
-      "current": "PARTIAL"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://api.postfleet.ai/api/mcp",
-      "name": "ai.postfleet/postfleet",
-      "current": "PARTIAL"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://mcp.povver.ai/mcp",
-      "name": "ai.povver/mcp-server",
-      "current": "PARTIAL"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://api.powerline.ai/v1/mcp",
-      "name": "ai.powerline/inbox-preview",
-      "current": "PASS"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://mcp.preape.ai",
-      "name": "ai.preape/preape",
-      "current": "PASS"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://preclick.ai/mcp",
-      "name": "ai.preclick/preclick-mcp",
-      "current": "PASS"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://mcp.prepublish.ai",
-      "name": "ai.prepublish/script-audit",
-      "current": "PASS"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://api.presentations.ai/mcp",
-      "name": "ai.presentations/presentations-ai",
-      "current": "PARTIAL"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://mcp.preuve.ai/mcp",
-      "name": "ai.preuve/mcp",
-      "current": "PARTIAL"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://api.primateintelligence.ai/mcp",
-      "name": "ai.primateintelligence/mcp",
-      "current": "PARTIAL"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://memory.primaxiom.ai/mcp",
-      "name": "ai.primaxiom.memory/reasongraph",
-      "current": "PARTIAL"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://primeta.ai/mcp",
-      "name": "ai.primeta/primeta",
-      "current": "PARTIAL"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://mcp.probitylabs.ai/mcp",
-      "name": "ai.probitylabs/wallet-reputation",
-      "current": "PASS"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://mcp.probr.ai/mcp",
-      "name": "ai.probr/probr",
-      "current": "PARTIAL"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://api.productnow-prod.com/mcp",
-      "name": "ai.productnow/productnow",
-      "current": "PARTIAL"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://profusia.ai/mcp",
-      "name": "ai.profusia/profusia",
-      "current": "PARTIAL"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://mcp.projectdata.ai/",
-      "name": "ai.projectdata/mpp-connector",
-      "current": "PARTIAL"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://projectlaunch.ai/mcp",
-      "name": "ai.projectlaunch/mcp",
-      "current": "PASS"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://prome.ai/api/marketplace-mcp",
-      "name": "ai.prome/care-core",
-      "current": "PARTIAL"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://mcp.promptarch.ai/mcp",
-      "name": "ai.promptarch/mcp",
-      "current": "PASS"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://promptsharp.ai/mcp",
-      "name": "ai.promptsharp/promptsharp",
-      "current": "PASS"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://proreach.ai/api/mcp",
-      "name": "ai.proreach/outreach",
-      "current": "PARTIAL"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://mcp.provenskills.ai/labs/mcp",
-      "name": "ai.provenskills/labs",
-      "current": "PARTIAL"
-    },
-    {
-      "type": "NEW",
-      "target_url": "https://gateway.proxygate.ai/mcp",
-      "name": "ai.proxygate/mcp",
+      "target_url": "https://my.simstim.ai/mcp",
+      "name": "ai.simstim/mcp",
       "current": null
     },
     {
       "type": "NEW",
-      "target_url": "https://mcp.pubfi.ai",
-      "name": "ai.pubfi/mcp",
+      "target_url": "https://mcp.sitectrl.ai/mcp",
+      "name": "ai.sitectrl/sitectrl",
       "current": "PASS"
     },
     {
       "type": "NEW",
-      "target_url": "https://publishwith.ai/mcp",
-      "name": "ai.publishwith/mcp",
+      "target_url": "https://mcp.sitepulsar.ai/mcp",
+      "name": "ai.sitepulsar/mcp",
+      "current": "PASS"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://connect.sixta.ai/mcp",
+      "name": "ai.sixta/sixta-connect",
       "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://api.pullpush.ai/mcp",
-      "name": "ai.pullpush/pullpush-mcp",
+      "target_url": "https://app.skilder.ai/mcp",
+      "name": "ai.skilder/skilder",
       "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://app.purrplan.ai/api/mcp",
-      "name": "ai.purrplan/purrplan",
+      "target_url": "https://mcp.skillsinput.ai/mcp",
+      "name": "ai.skillsinput/mcp",
       "current": "PASS"
     },
     {
       "type": "NEW",
-      "target_url": "https://pyrimid.ai/api/mcp",
-      "name": "ai.pyrimid/pyrimid",
+      "target_url": "https://mcp.skuit.ai/mcp",
+      "name": "ai.skuit/bom-builder",
       "current": "PARTIAL"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://mcp.skuit.ai/api/mcp/catalog",
+      "name": "ai.skuit/catalog",
+      "current": "PASS"
     },
     {
       "type": "NEW",
-      "target_url": "https://mcp.qcdatabase.ai/mcp",
-      "name": "ai.qcdatabase/mcp",
+      "target_url": "https://mcp.skylit.ai/mcp",
+      "name": "ai.skylit/mcp",
       "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://mcp-eu.qlane.ai/api/mcp",
-      "name": "ai.qlane/qlane",
+      "target_url": "https://mcp.sleepwalker.ai/mcp",
+      "name": "ai.sleepwalker/sleepwalker",
       "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://mcp-us.qlane.ai/api/mcp",
-      "name": "ai.qlane/qlane",
+      "target_url": "https://mcp.slideless.ai/mcp",
+      "name": "ai.slideless/mcp",
       "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://qr-manager.ai/api/mcp",
-      "name": "ai.qr-manager/qr-manager",
+      "target_url": "https://server.smithery.ai/@222wcnm/bilistalkermcp/mcp",
+      "name": "ai.smithery/222wcnm-bilistalkermcp",
       "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://api.qualityclouds.ai/mcp",
-      "name": "ai.qualityclouds/norma",
+      "target_url": "https://server.smithery.ai/@Aman-Amith-Shastry/scientific_computation_mcp/mcp",
+      "name": "ai.smithery/Aman-Amith-Shastry-scientific_computation_mcp",
       "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://mcp.quantifyme.ai/mcp",
-      "name": "ai.quantifyme/quantifyme",
-      "current": "PASS"
+      "target_url": "https://server.smithery.ai/@Artin0123/gemini-image-mcp-server/mcp",
+      "name": "ai.smithery/Artin0123-gemini-image-mcp-server",
+      "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://api.quickcasa.ai/v1/mcp",
-      "name": "ai.quickcasa/quickcasa",
+      "target_url": "https://server.smithery.ai/@BadRooBot/my_test_mcp/mcp",
+      "name": "ai.smithery/BadRooBot-my_test_mcp",
       "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://mcp.quillhub.ai/mcp",
-      "name": "ai.quillhub/mcp",
+      "target_url": "https://server.smithery.ai/@BadRooBot/test_m/mcp",
+      "name": "ai.smithery/BadRooBot-test_m",
       "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://quotefirst.ai/api/mcp",
-      "name": "ai.quotefirst/quotefirst",
-      "current": "PASS"
+      "target_url": "https://server.smithery.ai/@BigVik193/reddit-ads-mcp/mcp",
+      "name": "ai.smithery/BigVik193-reddit-ads-mcp",
+      "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://raccha.ai/mcp",
-      "name": "ai.raccha/raccha",
-      "current": "PASS"
+      "target_url": "https://server.smithery.ai/@BigVik193/reddit-ads-mcp-api/mcp",
+      "name": "ai.smithery/BigVik193-reddit-ads-mcp-api",
+      "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://radiomatic.ai/mcp/",
-      "name": "ai.radiomatic/radiomatic",
-      "current": "PASS"
+      "target_url": "https://server.smithery.ai/@BigVik193/reddit-ads-mcp-test/mcp",
+      "name": "ai.smithery/BigVik193-reddit-ads-mcp-test",
+      "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://www.radiusos.ai/api/mcp",
-      "name": "ai.radiusos.www/crm",
+      "target_url": "https://server.smithery.ai/@BigVik193/reddit-user-mcp/mcp",
+      "name": "ai.smithery/BigVik193-reddit-user-mcp",
       "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://mcp.radixia.ai/mcp",
-      "name": "ai.radixia/blog",
-      "current": "PASS"
+      "target_url": "https://server.smithery.ai/@BowenXU0126/aistudio_hw3/mcp",
+      "name": "ai.smithery/BowenXU0126-aistudio_hw3",
+      "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://radmail.ai/api/mcp/sandbox",
-      "name": "ai.radmail/radmail-mcp",
-      "current": "PASS"
+      "target_url": "https://server.smithery.ai/@ChiR24/unreal_mcp/mcp",
+      "name": "ai.smithery/ChiR24-unreal_mcp",
+      "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://mcp.raisonn.ai/mcp",
-      "name": "ai.raisonn/connect",
+      "target_url": "https://server.smithery.ai/@ChiR24/unreal_mcp_server/mcp",
+      "name": "ai.smithery/ChiR24-unreal_mcp_server",
       "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://worker.rams.ai/mcp",
-      "name": "ai.rams/rams",
-      "current": "PASS"
+      "target_url": "https://server.smithery.ai/@CollectiveSpend/collectivespend-smithery-mcp/mcp",
+      "name": "ai.smithery/CollectiveSpend-collectivespend-smithery-mcp",
+      "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://mcp.rapportscore.ai/mcp",
-      "name": "ai.rapportscore/rapportscore",
+      "target_url": "https://server.smithery.ai/@CryptoCultCurt/appfolio-mcp-server/mcp",
+      "name": "ai.smithery/CryptoCultCurt-appfolio-mcp-server",
       "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://mcp.ravenmcp.ai/api/mcp",
-      "name": "ai.ravenmcp/raven-mcp",
-      "current": "PASS"
+      "target_url": "https://server.smithery.ai/@Danushkumar-V/mcp-discord/mcp",
+      "name": "ai.smithery/Danushkumar-V-mcp-discord",
+      "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://mcp.rayana.ai/mcp",
-      "name": "ai.rayana/rayana-ai",
-      "current": "PASS"
+      "target_url": "https://server.smithery.ai/@DynamicEndpoints/autogen_mcp/mcp",
+      "name": "ai.smithery/DynamicEndpoints-autogen_mcp",
+      "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://rnfonkwthefktfvfwypr.supabase.co/functions/v1/mcp-server",
-      "name": "ai.readypermit/geo",
-      "current": "PASS"
+      "target_url": "https://server.smithery.ai/@DynamicEndpoints/m365-core-mcp/mcp",
+      "name": "ai.smithery/DynamicEndpoints-m365-core-mcp",
+      "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://realastat.ai/api/mcp",
-      "name": "ai.realastat/realastat",
+      "target_url": "https://server.smithery.ai/@DynamicEndpoints/powershell-exec-mcp-server/mcp",
+      "name": "ai.smithery/DynamicEndpoints-powershell-exec-mcp-server",
       "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://redditgrow.ai/mcp",
-      "name": "ai.redditgrow/mcp",
+      "target_url": "https://server.smithery.ai/@FelixYifeiWang/felix-mcp-smithery/mcp",
+      "name": "ai.smithery/FelixYifeiWang-felix-mcp-smithery",
       "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://mcp.reduck.ai/mcp",
-      "name": "ai.reduck/reduck",
+      "target_url": "https://server.smithery.ai/@Funding-Machine/ghl-mcp-fundingmachine/mcp",
+      "name": "ai.smithery/Funding-Machine-ghl-mcp-fundingmachine",
       "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://api.refd.ai/mcp",
-      "name": "ai.refd/refd",
+      "target_url": "https://server.smithery.ai/@HARJAP-SINGH-3105/splitwise_mcp/mcp",
+      "name": "ai.smithery/HARJAP-SINGH-3105-splitwise_mcp",
       "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://reglayer.ai/mcp",
-      "name": "ai.reglayer/instant-decision-briefs",
-      "current": "PASS"
+      "target_url": "https://server.smithery.ai/@Hint-Services/obsidian-github-mcp/mcp",
+      "name": "ai.smithery/Hint-Services-obsidian-github-mcp",
+      "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://regulations.ai/api/mcp/v1",
-      "name": "ai.regulations/regulations-ai",
-      "current": "PASS"
+      "target_url": "https://server.smithery.ai/@IlyaGusev/academia_mcp/mcp",
+      "name": "ai.smithery/IlyaGusev-academia_mcp",
+      "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://mcp.reka.ai/mcp",
-      "name": "ai.reka/mcp",
-      "current": "PASS"
+      "target_url": "https://server.smithery.ai/@ImRonAI/mcp-server-browserbase/mcp",
+      "name": "ai.smithery/ImRonAI-mcp-server-browserbase",
+      "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://api.relaystation.ai/mcp",
-      "name": "ai.relaystation/relaystation",
-      "current": "PASS"
+      "target_url": "https://server.smithery.ai/@IndianAppGuy/magicslide-mcp/mcp",
+      "name": "ai.smithery/IndianAppGuy-magicslide-mcp",
+      "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://mcp.responsibleailabs.ai/mcp",
-      "name": "ai.responsibleailabs/rail-score",
-      "current": null
+      "target_url": "https://server.smithery.ai/@IndianAppGuy/magicslide-mcp-actual-test/mcp",
+      "name": "ai.smithery/IndianAppGuy-magicslide-mcp-actual-test",
+      "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://resumax.ai/api/mcp",
-      "name": "ai.resumax/resumax",
+      "target_url": "https://server.smithery.ai/@JMoak/chrono-mcp/mcp",
+      "name": "ai.smithery/JMoak-chrono-mcp",
       "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://mcp.retrodiffusion.ai/mcp",
-      "name": "ai.retrodiffusion/pixel-art",
-      "current": "PASS"
+      "target_url": "https://server.smithery.ai/@JunoJunHyun/festival-finder-mcp/mcp",
+      "name": "ai.smithery/JunoJunHyun-festival-finder-mcp",
+      "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://api.revelara.ai/mcp",
-      "name": "ai.revelara/mcp",
+      "target_url": "https://server.smithery.ai/@Kim-soung-won/mcp-smithery-exam/mcp",
+      "name": "ai.smithery/Kim-soung-won-mcp-smithery-exam",
       "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://www.revuo.ai/api/mcp",
-      "name": "ai.revuo/revuo",
-      "current": "PASS"
+      "target_url": "https://server.smithery.ai/@Kryptoskatt/mcp-server/mcp",
+      "name": "ai.smithery/Kryptoskatt-mcp-server",
+      "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://mcp.rfix.ai/mcp",
-      "name": "ai.rfix/mcp",
-      "current": "PASS"
+      "target_url": "https://server.smithery.ai/@Leghis/smart-thinking/mcp",
+      "name": "ai.smithery/Leghis-smart-thinking",
+      "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://rfp.ai/api/mcp",
-      "name": "ai.rfp/rfp-ai",
+      "target_url": "https://server.smithery.ai/@LinkupPlatform/linkup-mcp-server/mcp",
+      "name": "ai.smithery/LinkupPlatform-linkup-mcp-server",
       "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://syri.rfsrisk.ai/mcp",
-      "name": "ai.rfsrisk/syri",
-      "current": "PASS"
+      "target_url": "https://server.smithery.ai/@MetehanGZL/pokemcp/mcp",
+      "name": "ai.smithery/MetehanGZL-pokemcp",
+      "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://mcp.rightcard.ai/mcp",
-      "name": "ai.rightcard/mcp",
-      "current": "PASS"
+      "target_url": "https://server.smithery.ai/@MisterSandFR/supabase-mcp-selfhosted/mcp",
+      "name": "ai.smithery/MisterSandFR-supabase-mcp-selfhosted",
+      "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://app.rise2.ai/mcp",
-      "name": "ai.rise2/figlime",
+      "target_url": "https://server.smithery.ai/@Nekzus/npm-sentinel-mcp/mcp",
+      "name": "ai.smithery/Nekzus-npm-sentinel-mcp",
       "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://api.riskstate.ai/mcp",
-      "name": "ai.riskstate/mcp",
-      "current": "PASS"
+      "target_url": "https://server.smithery.ai/@Open-Scout/mcp/mcp",
+      "name": "ai.smithery/Open-Scout-mcp",
+      "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://app.rithmo.ai/api/mcp",
-      "name": "ai.rithmo/rithmo",
+      "target_url": "https://server.smithery.ai/@PabloLec/keyprobe-mcp/mcp",
+      "name": "ai.smithery/PabloLec-keyprobe-mcp",
       "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://api.roamtime.ai/mcp",
-      "name": "ai.roamtime/foliage",
-      "current": "PASS"
+      "target_url": "https://server.smithery.ai/@Parc-Dev/task-breakdown-server/mcp",
+      "name": "ai.smithery/Parc-Dev-task-breakdown-server",
+      "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://api.robinlawyer.ai/mcp",
-      "name": "ai.robinlawyer/robinlawyer",
+      "target_url": "https://server.smithery.ai/@Phionx/mcp-hello-server/mcp",
+      "name": "ai.smithery/Phionx-mcp-hello-server",
       "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://mcp.robomart.ai/mcp",
-      "name": "ai.robomart/robomart",
-      "current": "PASS"
+      "target_url": "https://server.smithery.ai/@PixdataOrg/coderide/mcp",
+      "name": "ai.smithery/PixdataOrg-coderide",
+      "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://api.robosystems.ai/v1/mcp",
-      "name": "ai.robosystems/robosystems",
+      "target_url": "https://server.smithery.ai/@Pratiksha-Kanoja/magicslide-mcp-test/mcp",
+      "name": "ai.smithery/Pratiksha-Kanoja-magicslide-mcp-test",
       "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://www.robowrite.ai/api/mcp",
-      "name": "ai.robowrite/mcp",
-      "current": "PASS"
+      "target_url": "https://server.smithery.ai/@ProfessionalWiki/mediawiki-mcp-server/mcp",
+      "name": "ai.smithery/ProfessionalWiki-mediawiki-mcp-server",
+      "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://robutler.ai/mcp",
-      "name": "ai.robutler/robutler",
+      "target_url": "https://server.smithery.ai/@RectiFlex/centerassist-mcp/mcp",
+      "name": "ai.smithery/RectiFlex-centerassist-mcp",
       "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://mcp.roc.ai/mcp",
-      "name": "ai.roc/mcp",
+      "target_url": "https://server.smithery.ai/@RectiFlex/centerassist-mcp-cp/mcp",
+      "name": "ai.smithery/RectiFlex-centerassist-mcp-cp",
       "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://rocketlist.ai/mcp",
-      "name": "ai.rocketlist/rocketlist",
-      "current": "PASS"
+      "target_url": "https://server.smithery.ai/@RectiFlex/centerassist-mcp-cp1/mcp",
+      "name": "ai.smithery/RectiFlex-centerassist-mcp-cp1",
+      "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://rocketsloth.ai/mcp",
-      "name": "ai.rocketsloth/rocketsloth",
-      "current": "PASS"
+      "target_url": "https://server.smithery.ai/@RectiFlex/centerassist-mcp1/mcp",
+      "name": "ai.smithery/RectiFlex-centerassist-mcp1",
+      "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://mcp.rockmoon.ai/mcp",
-      "name": "ai.rockmoon/financial-data",
-      "current": "PASS"
+      "target_url": "https://server.smithery.ai/@STUzhy/py_execute_mcp/mcp",
+      "name": "ai.smithery/STUzhy-py_execute_mcp",
+      "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://mcp.roic.ai/mcp",
-      "name": "ai.roic/roic",
+      "target_url": "https://server.smithery.ai/@ScrapeGraphAI/scrapegraph-mcp/mcp",
+      "name": "ai.smithery/ScrapeGraphAI-scrapegraph-mcp",
       "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://rokha.ai/mcp/jsonrpc",
-      "name": "ai.rokha/rokha",
-      "current": "PASS"
+      "target_url": "https://server.smithery.ai/@TakoData/tako-mcp/mcp",
+      "name": "ai.smithery/TakoData-tako-mcp",
+      "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://mcp.roopslaw.ai/mcp",
-      "name": "ai.roopslaw/legalsearch",
-      "current": "PASS"
+      "target_url": "https://server.smithery.ai/@a-ariff/canvas-instant-mcp/mcp",
+      "name": "ai.smithery/a-ariff-canvas-instant-mcp",
+      "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://roosteragents.ai/agent-economy/mcp",
-      "name": "ai.roosteragents/agent-economy",
-      "current": "PASS"
+      "target_url": "https://server.smithery.ai/@aamangeldi/dad-jokes-mcp/mcp",
+      "name": "ai.smithery/aamangeldi-dad-jokes-mcp",
+      "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://roosteragents.ai/mcp",
-      "name": "ai.roosteragents/gateway",
-      "current": "PASS"
+      "target_url": "https://server.smithery.ai/@adamamer20/paper-search-mcp-openai/mcp",
+      "name": "ai.smithery/adamamer20-paper-search-mcp-openai",
+      "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://roosteragents.ai/switchboard/mcp",
-      "name": "ai.roosteragents/switchboard",
-      "current": "PASS"
+      "target_url": "https://server.smithery.ai/@afgong/sqlite-mcp-server/mcp",
+      "name": "ai.smithery/afgong-sqlite-mcp-server",
+      "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://rootdata.ai/api/mcp",
-      "name": "ai.rootdata/public-directory",
-      "current": "PASS"
+      "target_url": "https://server.smithery.ai/@aicastle-school/openai-api-agent-project/mcp",
+      "name": "ai.smithery/aicastle-school-openai-api-agent-project",
+      "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://www.roryplans.ai/api/mcp",
-      "name": "ai.roryplans/roryplans",
+      "target_url": "https://server.smithery.ai/@aicastle-school/openai-api-agent-project11/mcp",
+      "name": "ai.smithery/aicastle-school-openai-api-agent-project11",
       "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://mcp.router.ai/mcp",
-      "name": "ai.router/ai-gateway",
-      "current": "PASS"
+      "target_url": "https://server.smithery.ai/@airmang/hwpx-mcp/mcp",
+      "name": "ai.smithery/airmang-hwpx-mcp",
+      "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://routing24.ai/mcp",
-      "name": "ai.routing24/mcp",
+      "target_url": "https://server.smithery.ai/@akilat-spec/leave-manager-mcp/mcp",
+      "name": "ai.smithery/akilat-spec-leave-manager-mcp",
       "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://api.runx.ai/mcp",
-      "name": "ai.runx/runx",
-      "current": "PASS"
+      "target_url": "https://server.smithery.ai/@alex-llm/attack-mcp-server/mcp",
+      "name": "ai.smithery/alex-llm-attack-mcp-server",
+      "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://mcp.rxmanager.ai/mcp",
-      "name": "ai.rxmanager/mcp",
-      "current": "PASS"
+      "target_url": "https://server.smithery.ai/@alphago2580/naramarketmcp/mcp",
+      "name": "ai.smithery/alphago2580-naramarketmcp",
+      "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://mcp.ryla.ai/mcp",
-      "name": "ai.ryla/ryla",
-      "current": "PASS"
+      "target_url": "https://server.smithery.ai/@anirbanbasu/frankfurtermcp/mcp",
+      "name": "ai.smithery/anirbanbasu-frankfurtermcp",
+      "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://cryptopulse.saascloud.ai/mcp",
-      "name": "ai.saascloud/cryptopulse",
-      "current": "PASS"
+      "target_url": "https://server.smithery.ai/@anirbanbasu/pymcp/mcp",
+      "name": "ai.smithery/anirbanbasu-pymcp",
+      "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://mcp.sacs.ai/mcp",
-      "name": "ai.sacs/sacs-mcp",
-      "current": "PASS"
+      "target_url": "https://server.smithery.ai/@arjunkmrm/ahoy/mcp",
+      "name": "ai.smithery/arjunkmrm-ahoy",
+      "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://api.safe4.ai/mcp/",
-      "name": "ai.safe4/safe4",
-      "current": "PASS"
+      "target_url": "https://server.smithery.ai/@arjunkmrm/ahoy2/mcp",
+      "name": "ai.smithery/arjunkmrm-ahoy2",
+      "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://customer-tiering-mcp-latest.saifs.ai/mcp",
-      "name": "ai.saifs/customer-intelligence",
+      "target_url": "https://server.smithery.ai/@arjunkmrm/boba-tea/mcp",
+      "name": "ai.smithery/arjunkmrm-boba-tea",
       "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://demand-forecaster-mcp.saifs.ai/mcp",
-      "name": "ai.saifs/demand-forecasting",
+      "target_url": "https://server.smithery.ai/@arjunkmrm/bobo/mcp",
+      "name": "ai.smithery/arjunkmrm-bobo",
       "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://transport-agent-claude.saifs.ai/mcp",
-      "name": "ai.saifs/indian-railways-irctc",
+      "target_url": "https://server.smithery.ai/@arjunkmrm/brave-search-mcp-server/mcp",
+      "name": "ai.smithery/arjunkmrm-brave-search-mcp-server",
       "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://inventory-optimizer-mcp.saifs.ai/mcp",
-      "name": "ai.saifs/inventory-intelligence-optimizer",
+      "target_url": "https://server.smithery.ai/@arjunkmrm/clock/mcp",
+      "name": "ai.smithery/arjunkmrm-clock",
       "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://lead-scoring-mcp.saifs.ai/mcp",
-      "name": "ai.saifs/lead-intelligence",
+      "target_url": "https://server.smithery.ai/@arjunkmrm/fetch/mcp",
+      "name": "ai.smithery/arjunkmrm-fetch",
       "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://marketing-analysis-mcp.saifs.ai/mcp",
-      "name": "ai.saifs/marketing-intelligence",
+      "target_url": "https://server.smithery.ai/arjunkmrm/http-test",
+      "name": "ai.smithery/arjunkmrm-http-test",
       "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://mcp.saifs.ai/mcp",
-      "name": "ai.saifs/media-generator-images-videos",
+      "target_url": "https://server.smithery.ai/@arjunkmrm/local-test2/mcp",
+      "name": "ai.smithery/arjunkmrm-local-test2",
       "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://synthetic-mint-mcp.saifs.ai/mcp",
-      "name": "ai.saifs/synthetic-data-random-user",
+      "target_url": "https://server.smithery.ai/@arjunkmrm/local001/mcp",
+      "name": "ai.smithery/arjunkmrm-local001",
       "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://mcp.saltapp.ai/mcp",
-      "name": "ai.saltapp/salt",
+      "target_url": "https://server.smithery.ai/@arjunkmrm/local01/mcp",
+      "name": "ai.smithery/arjunkmrm-local01",
       "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://api.saltybytes.ai/mcp",
-      "name": "ai.saltybytes/recipes",
+      "target_url": "https://server.smithery.ai/@arjunkmrm/local02/mcp",
+      "name": "ai.smithery/arjunkmrm-local02",
       "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://satohub.ai/api/mcp",
-      "name": "ai.satohub/onchain-agents",
-      "current": "PASS"
+      "target_url": "https://server.smithery.ai/@arjunkmrm/lta-mcp/mcp",
+      "name": "ai.smithery/arjunkmrm-lta-mcp",
+      "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://satoshidata.ai/mcp/v1/",
-      "name": "ai.satoshidata/wallet-intelligence",
-      "current": "PASS"
+      "target_url": "https://server.smithery.ai/@arjunkmrm/mango-sago/mcp",
+      "name": "ai.smithery/arjunkmrm-mango-sago",
+      "current": "PARTIAL"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://server.smithery.ai/@arjunkmrm/perplexity-search/mcp",
+      "name": "ai.smithery/arjunkmrm-perplexity-search",
+      "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://scamverify.ai/api/mcp",
-      "name": "ai.scamverify/mcp",
-      "current": null
+      "target_url": "https://server.smithery.ai/@arjunkmrm/py-test-0/mcp",
+      "name": "ai.smithery/arjunkmrm-py-test-0",
+      "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://mcp.schemalabs.ai/mcp",
-      "name": "ai.schemalabs/schema",
+      "target_url": "https://server.smithery.ai/@arjunkmrm/py-test-2/mcp",
+      "name": "ai.smithery/arjunkmrm-py-test-2",
       "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://api.scite.ai/mcp",
-      "name": "ai.scite/mcp",
+      "target_url": "https://server.smithery.ai/@arjunkmrm/scrapermcp_el/mcp",
+      "name": "ai.smithery/arjunkmrm-scrapermcp_el",
       "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://scoreia.ai/mcp",
-      "name": "ai.scoreia/bench",
-      "current": "PASS"
+      "target_url": "https://server.smithery.ai/@arjunkmrm/sg-bus-test/mcp",
+      "name": "ai.smithery/arjunkmrm-sg-bus-test",
+      "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://scoreia.ai/forge/mcp",
-      "name": "ai.scoreia/forge",
-      "current": "PASS"
+      "target_url": "https://server.smithery.ai/@arjunkmrm/test0/mcp",
+      "name": "ai.smithery/arjunkmrm-test0",
+      "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://scoreia.ai/open-labyrinth/mcp",
-      "name": "ai.scoreia/open-labyrinth",
-      "current": "PASS"
+      "target_url": "https://server.smithery.ai/@arjunkmrm/test01/mcp",
+      "name": "ai.smithery/arjunkmrm-test01",
+      "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://mcp.scout7.ai/mcp",
-      "name": "ai.scout7/scout7",
+      "target_url": "https://server.smithery.ai/@arjunkmrm/test2/mcp",
+      "name": "ai.smithery/arjunkmrm-test2",
       "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://mcp.sealgate.ai/mcp",
-      "name": "ai.sealgate/gateway",
+      "target_url": "https://server.smithery.ai/@arjunkmrm/time/mcp",
+      "name": "ai.smithery/arjunkmrm-time",
       "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://mcp.seaotter.ai/mcp",
-      "name": "ai.seaotter/otterscore",
+      "target_url": "https://server.smithery.ai/@arjunkmrm/ts-test-2/mcp",
+      "name": "ai.smithery/arjunkmrm-ts-test-2",
       "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://searchconsole.ai/mcp",
-      "name": "ai.searchconsole/searchconsole-ai",
+      "target_url": "https://server.smithery.ai/@arjunkmrm/tutorials/mcp",
+      "name": "ai.smithery/arjunkmrm-tutorials",
       "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://searcheros.ai/api/mcp/mcp",
-      "name": "ai.searcheros/searcher-os",
+      "target_url": "https://server.smithery.ai/@arjunkmrm/watch2/mcp",
+      "name": "ai.smithery/arjunkmrm-watch2",
       "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://searchshopai-mcp.fly.dev/mcp/la-luer",
-      "name": "ai.searchshop.www/la-luer",
-      "current": "PASS"
+      "target_url": "https://server.smithery.ai/@aryankeluskar/poke-video-mcp/mcp",
+      "name": "ai.smithery/aryankeluskar-poke-video-mcp",
+      "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://searchshopai-mcp.fly.dev/mcp/apostleman",
-      "name": "ai.searchshop/apostleman",
-      "current": "PASS"
+      "target_url": "https://server.smithery.ai/@bergeramit/bergeramit-hw3-tech/mcp",
+      "name": "ai.smithery/bergeramit-bergeramit-hw3-tech",
+      "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://api.secapi.ai/mcp",
-      "name": "ai.secapi/secapi",
+      "target_url": "https://server.smithery.ai/@bergeramit/bergeramit-hw3-tech-1/mcp",
+      "name": "ai.smithery/bergeramit-bergeramit-hw3-tech-1",
       "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://api.seendb.ai/mcp",
-      "name": "ai.seendb/seendb",
+      "target_url": "https://server.smithery.ai/@bhushangitfull/file-mcp-smith/mcp",
+      "name": "ai.smithery/bhushangitfull-file-mcp-smith",
       "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://mcp.selda.ai/api/mcp",
-      "name": "ai.selda/selda",
+      "target_url": "https://server.smithery.ai/@bielacki/igdb-mcp-server/mcp",
+      "name": "ai.smithery/bielacki-igdb-mcp-server",
       "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://mcp.seldons.ai/mcp",
-      "name": "ai.seldons/korea-business-trade",
+      "target_url": "https://server.smithery.ai/@blacklotusdev8/test_m/mcp",
+      "name": "ai.smithery/blacklotusdev8-test_m",
       "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://www.sellerforge.ai/api/mcp",
-      "name": "ai.sellerforge/sellerforge",
+      "target_url": "https://server.smithery.ai/@blbl147/xhs-mcp/mcp",
+      "name": "ai.smithery/blbl147-xhs-mcp",
       "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://api.sellermate.ai/mcp/sse",
-      "name": "ai.sellermate/amazon-ads",
+      "target_url": "https://server.smithery.ai/@blockscout/mcp-server/mcp",
+      "name": "ai.smithery/blockscout-mcp-server",
       "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://mcp.seltz.ai/mcp",
-      "name": "ai.seltz/seltz-ai-seltz-mcp",
+      "target_url": "https://server.smithery.ai/@brandonbosco/sigao-scf-mcp/mcp",
+      "name": "ai.smithery/brandonbosco-sigao-scf-mcp",
       "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://mcp.senaro.ai/mcp",
-      "name": "ai.senaro/personal-finance",
-      "current": "PASS"
+      "target_url": "https://server.smithery.ai/brave/mcp",
+      "name": "ai.smithery/brave",
+      "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://sendafax.ai/api/mcp",
-      "name": "ai.sendafax/sendafax",
-      "current": "PASS"
+      "target_url": "https://server.smithery.ai/@browserbasehq/mcp-browserbase/mcp",
+      "name": "ai.smithery/browserbasehq-mcp-browserbase",
+      "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://sendfast.ai/api/mcp",
-      "name": "ai.sendfast/sendfast",
+      "target_url": "https://server.smithery.ai/@callmybot/cookbook-mcp-server/mcp",
+      "name": "ai.smithery/callmybot-cookbook-mcp-server",
       "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://sendinel.ai/mcp",
-      "name": "ai.sendinel/mcp-server",
+      "target_url": "https://server.smithery.ai/@callmybot/domoticz/mcp",
+      "name": "ai.smithery/callmybot-domoticz",
       "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://mcp.sendraven.ai/mcp",
-      "name": "ai.sendraven/mcp",
-      "current": "PASS"
+      "target_url": "https://server.smithery.ai/@callmybot/hello-mcp-server/mcp",
+      "name": "ai.smithery/callmybot-hello-mcp-server",
+      "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://mcp.sengi.ai/mcp",
-      "name": "ai.sengi/sengi",
+      "target_url": "https://server.smithery.ai/@cc25a/openai-api-agent-project123123123/mcp",
+      "name": "ai.smithery/cc25a-openai-api-agent-project123123123",
       "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://sentedge.ai/mcp",
-      "name": "ai.sentedge/idea-machine",
-      "current": "PASS"
+      "target_url": "https://server.smithery.ai/@cindyloo/dropbox-mcp-server/mcp",
+      "name": "ai.smithery/cindyloo-dropbox-mcp-server",
+      "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://api.sentfrom.ai/mcp",
-      "name": "ai.sentfrom/mcp",
+      "target_url": "https://server.smithery.ai/@clpi/clp-mcp/mcp",
+      "name": "ai.smithery/clpi-clp-mcp",
       "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://app.sentisense.ai/mcp",
-      "name": "ai.sentisense/market-intelligence",
+      "target_url": "https://server.smithery.ai/@cpretzinger/ai-assistant-simple/mcp",
+      "name": "ai.smithery/cpretzinger-ai-assistant-simple",
       "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://app.seomatic.ai/api/mcp",
-      "name": "ai.seomatic/seomatic",
-      "current": "PASS"
+      "target_url": "https://server.smithery.ai/@cristianoaredes/mcp-dadosbr/mcp",
+      "name": "ai.smithery/cristianoaredes-mcp-dadosbr",
+      "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://api.serff.ai/mcp",
-      "name": "ai.serff/ca-rate-filings",
-      "current": null
+      "target_url": "https://server.smithery.ai/@ctaylor86/mcp-video-download-server/mcp",
+      "name": "ai.smithery/ctaylor86-mcp-video-download-server",
+      "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://servana.ai/api/mcp",
-      "name": "ai.servana/servana",
-      "current": "PASS"
+      "target_url": "https://server.smithery.ai/@cuongpo/coti-mcp/mcp",
+      "name": "ai.smithery/cuongpo-coti-mcp",
+      "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://api.sessionkeeper.ai/mcp",
-      "name": "ai.sessionkeeper/mcp",
+      "target_url": "https://server.smithery.ai/@cuongpo/coti-mcp-1/mcp",
+      "name": "ai.smithery/cuongpo-coti-mcp-1",
       "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://mcp-public.sharebench.ai",
-      "name": "ai.sharebench/registry",
-      "current": "PASS"
+      "target_url": "https://server.smithery.ai/@data-mindset/sts-google-forms-mcp/mcp",
+      "name": "ai.smithery/data-mindset-sts-google-forms-mcp",
+      "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://sharewatch.ai/mcp",
-      "name": "ai.sharewatch/sharewatch",
+      "target_url": "https://server.smithery.ai/@demomagic/duckchain-mcp/mcp",
+      "name": "ai.smithery/demomagic-duckchain-mcp",
       "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://mcp.withone.ai/mcp",
-      "name": "ai.withone/mcp",
+      "target_url": "https://server.smithery.ai/@devbrother2024/typescript-mcp-server-boilerplate/mcp",
+      "name": "ai.smithery/devbrother2024-typescript-mcp-server-boilerplate",
       "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://nova.civai.co/mcp/agents/research-agent",
-      "name": "co.civai.nova/research-agent",
-      "current": "PASS"
+      "target_url": "https://server.smithery.ai/@docfork/mcp/mcp",
+      "name": "ai.smithery/docfork-mcp",
+      "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://mcp.a2me.app/mcp",
-      "name": "io.github.Kinnectd/a2me-mcp-server",
+      "target_url": "https://server.smithery.ai/@dsharipova/mcp-hw/mcp",
+      "name": "ai.smithery/dsharipova-mcp-hw",
       "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://mcp.layers.com/mcp",
-      "name": "io.github.layers/mcp",
+      "target_url": "https://server.smithery.ai/@duvomike/mcp/mcp",
+      "name": "ai.smithery/duvomike-mcp",
       "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://mcp.stellara.natlex.it/mcp",
-      "name": "it.natlex/stellara-mcp",
+      "target_url": "https://server.smithery.ai/@eliu243/oura-mcp-server/mcp",
+      "name": "ai.smithery/eliu243-oura-mcp-server",
       "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://api.mcp.ai/p_pref_ce_fortaleza_cnd",
-      "name": "io.github.mcp-dir/pref_ce_fortaleza_cnd-mcp",
-      "current": "PASS"
+      "target_url": "https://server.smithery.ai/@eliu243/oura-mcp-server-2/mcp",
+      "name": "ai.smithery/eliu243-oura-mcp-server-2",
+      "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://api.mcp.ai/p_pref_rj_rio_janeiro_multas",
-      "name": "io.github.mcp-dir/pref_rj_rio_janeiro_multas-mcp",
-      "current": "PASS"
+      "target_url": "https://server.smithery.ai/@eliu243/oura-mcp-server-eliu/mcp",
+      "name": "ai.smithery/eliu243-oura-mcp-server-eliu",
+      "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://govauctions.app/api/mcp",
-      "name": "app.govauctions/govauctions",
-      "current": "PASS"
+      "target_url": "https://server.smithery.ai/@exa-labs/exa-code-mcp/mcp",
+      "name": "ai.smithery/exa-labs-exa-code-mcp",
+      "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://api.mcp.ai/p_cpf_cadastral",
-      "name": "io.github.mcp-dir/cpf_cadastral-mcp",
-      "current": "PASS"
+      "target_url": "https://server.smithery.ai/@faithk7/gmail-mcp/mcp",
+      "name": "ai.smithery/faithk7-gmail-mcp",
+      "current": "PARTIAL"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://server.smithery.ai/@feeefapp/mcp/mcp",
+      "name": "ai.smithery/feeefapp-mcp",
+      "current": "PARTIAL"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://server.smithery.ai/@fengyinxia/jimeng-mcp/mcp",
+      "name": "ai.smithery/fengyinxia-jimeng-mcp",
+      "current": "PARTIAL"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://server.smithery.ai/@fitaf-ai/fitaf-ai-mcp/mcp",
+      "name": "ai.smithery/fitaf-ai-fitaf-ai-mcp",
+      "current": "PARTIAL"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://server.smithery.ai/@fitaf-ai/fitaf-mcp/mcp",
+      "name": "ai.smithery/fitaf-ai-fitaf-mcp",
+      "current": "PARTIAL"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://server.smithery.ai/@flight505/mcp_dincoder/mcp",
+      "name": "ai.smithery/flight505-mcp_dincoder",
+      "current": "PARTIAL"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://server.smithery.ai/@hithereiamaliff/mcp-datagovmy/mcp",
+      "name": "ai.smithery/hithereiamaliff-mcp-datagovmy",
+      "current": "PARTIAL"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://server.smithery.ai/@hithereiamaliff/mcp-nextcloud/mcp",
+      "name": "ai.smithery/hithereiamaliff-mcp-nextcloud",
+      "current": "PARTIAL"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://server.smithery.ai/@hjsh200219/pharminfo-mcp/mcp",
+      "name": "ai.smithery/hjsh200219-pharminfo-mcp",
+      "current": "PARTIAL"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://server.smithery.ai/@hollaugo/financial-research-mcp-server/mcp",
+      "name": "ai.smithery/hollaugo-financial-research-mcp-server",
+      "current": "PARTIAL"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://server.smithery.ai/@hustcc/mcp-mermaid/mcp",
+      "name": "ai.smithery/hustcc-mcp-mermaid",
+      "current": "PARTIAL"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://server.smithery.ai/@huuthangntk/claude-vision-mcp-server/mcp",
+      "name": "ai.smithery/huuthangntk-claude-vision-mcp-server",
+      "current": "PARTIAL"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://server.smithery.ai/@infranodus/mcp-server-infranodus/mcp",
+      "name": "ai.smithery/infranodus-mcp-server-infranodus",
+      "current": "PARTIAL"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://server.smithery.ai/@isnow890/data4library-mcp/mcp",
+      "name": "ai.smithery/isnow890-data4library-mcp",
+      "current": "PARTIAL"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://server.smithery.ai/@jekakos/mcp-user-data-enrichment/mcp",
+      "name": "ai.smithery/jekakos-mcp-user-data-enrichment",
+      "current": "PARTIAL"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://server.smithery.ai/@jenniferjiang0511/mit-ai-studio-hw3/mcp",
+      "name": "ai.smithery/jenniferjiang0511-mit-ai-studio-hw3",
+      "current": "PARTIAL"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://server.smithery.ai/@jessicayanwang/test/mcp",
+      "name": "ai.smithery/jessicayanwang-test",
+      "current": "PARTIAL"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://server.smithery.ai/@jirispilka/actors-mcp-server/mcp",
+      "name": "ai.smithery/jirispilka-actors-mcp-server",
+      "current": "PARTIAL"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://server.smithery.ai/@jjlabsio/korea-stock-mcp/mcp",
+      "name": "ai.smithery/jjlabsio-korea-stock-mcp",
+      "current": "PARTIAL"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://server.smithery.ai/@jweingardt12/mlb_mcp/mcp",
+      "name": "ai.smithery/jweingardt12-mlb_mcp",
+      "current": "PARTIAL"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://server.smithery.ai/@kaszek/kaszek-attio-mcp/mcp",
+      "name": "ai.smithery/kaszek-kaszek-attio-mcp",
+      "current": "PARTIAL"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://server.smithery.ai/@keithah/hostex-mcp/mcp",
+      "name": "ai.smithery/keithah-hostex-mcp",
+      "current": "PARTIAL"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://server.smithery.ai/@keithah/tessie-mcp/mcp",
+      "name": "ai.smithery/keithah-tessie-mcp",
+      "current": "PARTIAL"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://server.smithery.ai/@keremurat/json/mcp",
+      "name": "ai.smithery/keremurat-json",
+      "current": "PARTIAL"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://server.smithery.ai/@keremurat/jsonmcp/mcp",
+      "name": "ai.smithery/keremurat-jsonmcp",
+      "current": "PARTIAL"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://server.smithery.ai/@keremurat/mcp/mcp",
+      "name": "ai.smithery/keremurat-mcp",
+      "current": "PARTIAL"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://server.smithery.ai/@kesslerio/attio-mcp-server/mcp",
+      "name": "ai.smithery/kesslerio-attio-mcp-server",
+      "current": "PARTIAL"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://server.smithery.ai/@kesslerio/attio-mcp-server-beta/mcp",
+      "name": "ai.smithery/kesslerio-attio-mcp-server-beta",
+      "current": "PARTIAL"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://server.smithery.ai/@kirbah/mcp-youtube/mcp",
+      "name": "ai.smithery/kirbah-mcp-youtube",
+      "current": "PARTIAL"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://server.smithery.ai/@kkjdaniel/bgg-mcp/mcp",
+      "name": "ai.smithery/kkjdaniel-bgg-mcp",
+      "current": "PARTIAL"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://server.smithery.ai/@kodey-ai/mapwise-mcp/mcp",
+      "name": "ai.smithery/kodey-ai-mapwise-mcp",
+      "current": "PARTIAL"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://server.smithery.ai/@kodey-ai/salesforce-mcp/mcp",
+      "name": "ai.smithery/kodey-ai-salesforce-mcp",
+      "current": "PARTIAL"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://server.smithery.ai/@kodey-ai/salesforce-mcp-kodey/mcp",
+      "name": "ai.smithery/kodey-ai-salesforce-mcp-kodey",
+      "current": "PARTIAL"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://server.smithery.ai/@kodey-ai/salesforce-mcp-minimal/mcp",
+      "name": "ai.smithery/kodey-ai-salesforce-mcp-minimal",
+      "current": "PARTIAL"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://server.smithery.ai/@kodey-ai/salesforce-mcp-server/mcp",
+      "name": "ai.smithery/kodey-ai-salesforce-mcp-server",
+      "current": "PARTIAL"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://server.smithery.ai/@kwp-lab/rss-reader-mcp/mcp",
+      "name": "ai.smithery/kwp-lab-rss-reader-mcp",
+      "current": "PARTIAL"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://server.smithery.ai/@leandrogavidia/vechain-mcp-server/mcp",
+      "name": "ai.smithery/leandrogavidia-vechain-mcp-server",
+      "current": "PARTIAL"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://server.smithery.ai/@lineex/pubmed-mcp-smithery/mcp",
+      "name": "ai.smithery/lineex-pubmed-mcp-smithery",
+      "current": "PARTIAL"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://server.smithery.ai/@lukaskostka99/marketing-miner-mcp/mcp",
+      "name": "ai.smithery/lukaskostka99-marketing-miner-mcp",
+      "current": "PARTIAL"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://server.smithery.ai/@luminati-io/brightdata-mcp/mcp",
+      "name": "ai.smithery/luminati-io-brightdata-mcp",
+      "current": "PARTIAL"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://server.smithery.ai/@magenie33/quality-dimension-generator/mcp",
+      "name": "ai.smithery/magenie33-quality-dimension-generator",
+      "current": "PARTIAL"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://server.smithery.ai/@mayla-debug/mcp-google-calendar2/mcp",
+      "name": "ai.smithery/mayla-debug-mcp-google-calendar2",
+      "current": "PARTIAL"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://server.smithery.ai/@mfukushim/map-traveler-mcp/mcp",
+      "name": "ai.smithery/mfukushim-map-traveler-mcp",
+      "current": "PARTIAL"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://server.smithery.ai/@miguelgarzons/mcp-cun/mcp",
+      "name": "ai.smithery/miguelgarzons-mcp-cun",
+      "current": "PARTIAL"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://server.smithery.ai/@minionszyw/bazi/mcp",
+      "name": "ai.smithery/minionszyw-bazi",
+      "current": "PARTIAL"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://server.smithery.ai/@mjucius/cozi_mcp/mcp",
+      "name": "ai.smithery/mjucius-cozi_mcp",
+      "current": "PARTIAL"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://server.smithery.ai/@morosss/sdfsdf/mcp",
+      "name": "ai.smithery/morosss-sdfsdf",
+      "current": "PARTIAL"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://server.smithery.ai/@motorboy1/my-mcp-server/mcp",
+      "name": "ai.smithery/motorboy1-my-mcp-server",
+      "current": "PARTIAL"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://server.smithery.ai/@mrugankpednekar/bill_splitter_mcp/mcp",
+      "name": "ai.smithery/mrugankpednekar-bill_splitter_mcp",
+      "current": "PARTIAL"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://server.smithery.ai/@mrugankpednekar/mcp-optimizer/mcp",
+      "name": "ai.smithery/mrugankpednekar-mcp-optimizer",
+      "current": "PARTIAL"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://server.smithery.ai/@neverinfamous/memory-journal-mcp/mcp",
+      "name": "ai.smithery/neverinfamous-memory-journal-mcp",
+      "current": "PARTIAL"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://server.smithery.ai/@nickthelegend/test-mcp/mcp",
+      "name": "ai.smithery/nickthelegend-test-mcp",
+      "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://api.mcp.ai/p_pref_go_morrinhos_cnd",
-      "name": "io.github.mcp-dir/pref_go_morrinhos_cnd-mcp",
+      "target_url": "https://server.smithery.ai/@oxylabs/oxylabs-mcp/mcp",
+      "name": "ai.smithery/oxylabs-oxylabs-mcp",
+      "current": "PARTIAL"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://mcp.tapetide.com/mcp",
+      "name": "com.tapetide/stock-research-mcp",
+      "current": "PARTIAL"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://cmr.earthdata.nasa.gov/mcp/v1",
+      "name": "io.github.nasa/earthdata-mcp",
       "current": "PASS"
     },
     {
       "type": "NEW",
-      "target_url": "https://gateway.pipeworx.io/ted-eu/mcp",
-      "name": "io.github.pipeworx-io/ted-eu",
+      "target_url": "https://nudaui.dev/mcp",
+      "name": "io.github.sgomez-dev/nudaui",
       "current": "PASS"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://mcp.hasdata.com/mcp?apis=zillow",
+      "name": "com.hasdata/zillow",
+      "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://api.mcp.ai/p_senatran_advertencia_escrito",
-      "name": "io.github.mcp-dir/senatran_advertencia_escrito-mcp",
+      "target_url": "https://mcp.carbone.io",
+      "name": "io.carbone/carbone-mcp",
       "current": "PASS"
     },
     {
       "type": "NEW",
-      "target_url": "https://api.mcp.ai/p_car_demonstrativo",
-      "name": "io.github.mcp-dir/car_demonstrativo-mcp",
+      "target_url": "https://mcp.equibles.com/mcp",
+      "name": "io.github.daniel3303/equibles",
       "current": "PASS"
     },
     {
       "type": "NEW",
-      "target_url": "https://api.mcp.ai/p_sintegra_ac",
-      "name": "io.github.mcp-dir/sintegra_ac-mcp",
+      "target_url": "https://exchange-production-9123.up.railway.app/mcp",
+      "name": "io.github.Capital-W-Holdings/us-property-parcel-real-estate-debt",
       "current": "PASS"
     },
     {
       "type": "NEW",
-      "target_url": "https://api.mcp.ai/p_sefaz_al_certidao_debitos",
-      "name": "io.github.mcp-dir/sefaz_al_certidao_debitos-mcp",
+      "target_url": "https://api.kepleragents.com/mcp",
+      "name": "com.kepleragents/kepleragents-mcp",
+      "current": "PARTIAL"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://api.mcp.ai/p_der_sp_multas",
+      "name": "io.github.mcp-dir/der_sp_multas-mcp",
       "current": "PASS"
     },
     {
       "type": "NEW",
-      "target_url": "https://api.mcp.ai/p_cvm",
-      "name": "io.github.mcp-dir/cvm-mcp",
+      "target_url": "https://api.mcp.ai/p_sefaz_rs_nfce_resumida",
+      "name": "io.github.mcp-dir/sefaz_rs_nfce_resumida-mcp",
       "current": "PASS"
     },
     {
       "type": "NEW",
-      "target_url": "https://api.mcp.ai/p_ecrvsp_docs_escolher_placa",
-      "name": "io.github.mcp-dir/ecrvsp_docs_escolher_placa-mcp",
+      "target_url": "https://api.mcp.ai/p_sefaz_df_iptu",
+      "name": "io.github.mcp-dir/sefaz_df_iptu-mcp",
       "current": "PASS"
     },
     {
       "type": "NEW",
-      "target_url": "https://mcp.dealmachine.com",
-      "name": "io.github.DealMachine/dealmachine",
+      "target_url": "https://www.mingxinstorage.xyz/api/mcp",
+      "name": "xyz.mingxinstorage/mingxin-mcp-server",
       "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://api.mcp.ai/p_ibama_embargos",
-      "name": "io.github.mcp-dir/ibama_embargos-mcp",
+      "target_url": "https://api.mcp.ai/p_stm_certidao",
+      "name": "io.github.mcp-dir/stm_certidao-mcp",
       "current": "PASS"
     },
     {
       "type": "NEW",
-      "target_url": "https://trip1.com/api/mcp",
-      "name": "com.trip1/mcp",
+      "target_url": "https://api.mcp.ai/p_inpi_marcas_processo_resumida",
+      "name": "io.github.mcp-dir/inpi_marcas_processo_resumida-mcp",
       "current": "PASS"
     },
     {
       "type": "NEW",
-      "target_url": "https://api.mcp.ai/p_transparencia_servidores",
-      "name": "io.github.mcp-dir/transparencia_servidores-mcp",
+      "target_url": "https://api.mcp.ai/p_receita_federal_situacao",
+      "name": "io.github.mcp-dir/receita_federal_situacao-mcp",
       "current": "PASS"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://apify.com/johnvc/google-local-api/api/mcp",
+      "name": "io.github.johnisanerd/google-local",
+      "current": "PARTIAL"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://api.stellary.co/mcp",
+      "name": "io.github.Anymfah/stellary-project-management",
+      "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://api.mcp.ai/p_tribunal_trt16_ceat",
-      "name": "io.github.mcp-dir/tribunal_trt16_ceat-mcp",
+      "target_url": "https://api.mcp.ai/p_contas_light_download_cep_ocr",
+      "name": "io.github.mcp-dir/contas_light_download_cep_ocr-mcp",
       "current": "PASS"
     },
     {
       "type": "NEW",
-      "target_url": "https://mcp.storiez.io/api/mcp",
-      "name": "io.github.Storiez-Agents/storiezagents-mcp",
+      "target_url": "https://hivemind.onrender.com/mcp",
+      "name": "io.github.srotzin/hivemind",
       "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://api.mcp.ai/p_cro_to_cadastro",
-      "name": "io.github.mcp-dir/cro_to_cadastro-mcp",
+      "target_url": "https://nittim.com/api/mcp",
+      "name": "com.nittim/nittim",
       "current": "PASS"
     },
     {
       "type": "NEW",
-      "target_url": "https://api.mcp.ai/p_sefaz_ba_ipva_notificado",
-      "name": "io.github.mcp-dir/sefaz_ba_ipva_notificado-mcp",
+      "target_url": "https://mcp.quadratichq.com/mcp",
+      "name": "io.github.quadratichq/quadratic-mcp",
       "current": "PASS"
     },
     {
       "type": "NEW",
-      "target_url": "https://app.comunicate.top/mcp",
-      "name": "top.comunicate/publishing",
-      "current": "PARTIAL"
+      "target_url": "https://mcp.careclinic.io/mcp",
+      "name": "io.careclinic/health-tracker",
+      "current": "PASS"
     },
     {
       "type": "NEW",
-      "target_url": "https://wan.mcp.acedata.cloud/mcp",
-      "name": "io.github.AceDataCloud/mcp-wan",
-      "current": "PARTIAL"
+      "target_url": "https://api.mcp.ai/p_carf_processo",
+      "name": "io.github.mcp-dir/carf_processo-mcp",
+      "current": "PASS"
     },
     {
       "type": "NEW",
-      "target_url": "https://api.mcp.ai/p_sefaz_rj_certidao_debitos_cert",
-      "name": "io.github.mcp-dir/sefaz_rj_certidao_debitos_cert-mcp",
+      "target_url": "https://api.mcp.ai/p_vinculos_societarios",
+      "name": "io.github.mcp-dir/vinculos_societarios-mcp",
       "current": "PASS"
     },
     {
       "type": "NEW",
-      "target_url": "https://lets.usebrains.app/mcp",
-      "name": "io.github.brainsforai/brains-mcp-connector",
+      "target_url": "https://gateway.pipeworx.io/nvd/mcp",
+      "name": "io.github.pipeworx-io/nvd",
       "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://mcp.agenttrafficlab.com/mcp",
-      "name": "com.agenttrafficlab/atl",
-      "current": "PASS"
+      "target_url": "https://mcp-company-lens-v1.gepuro.net/mcp",
+      "name": "net.gepuro.mcp-company-lens-v1/company-lens-mcp-registry",
+      "current": "PARTIAL"
     },
     {
       "type": "NEW",
-      "target_url": "https://api.staats.ai/functions/v1/mcp",
-      "name": "io.github.MrViolets/staats",
+      "target_url": "https://api.mcp.ai/p_detran_go_debitos",
+      "name": "io.github.mcp-dir/detran_go_debitos-mcp",
       "current": "PASS"
     },
     {
       "type": "NEW",
-      "target_url": "https://mcp.plusai.com/",
-      "name": "io.github.PlusDocs/plus-ai-mcp",
-      "current": "PARTIAL"
+      "target_url": "https://api.mcp.ai/p_pf_regularidade_empresa",
+      "name": "io.github.mcp-dir/pf_regularidade_empresa-mcp",
+      "current": "PASS"
     },
     {
       "type": "NEW",
-      "target_url": "https://wellpreppedlife.com/api/mcp",
-      "name": "io.github.asarogers/wellpreppedlife-booking",
+      "target_url": "https://veristat.grant-23a.workers.dev/mcp",
+      "name": "io.github.originallgb/veristat",
       "current": "PASS"
     },
     {
       "type": "NEW",
-      "target_url": "https://mcp.gogonka.com/mcp",
-      "name": "io.github.bystray/gonka-mcp-server",
+      "target_url": "https://slipstream-pi.vercel.app/api/mcp",
+      "name": "io.github.tathagat22/slipstream",
       "current": "PASS"
+    },
+    {
+      "type": "NEW",
+      "target_url": "https://samdesk.nl/mcp",
+      "name": "io.github.smrht/klussenbeheer",
+      "current": "PARTIAL"
     }
   ],
   "note": "The Radar catalog is cumulative. Rotating sweeps preserve unvisited endpoints, so NOT_SEEN is not inferred merely from absence in the current cursor window."
